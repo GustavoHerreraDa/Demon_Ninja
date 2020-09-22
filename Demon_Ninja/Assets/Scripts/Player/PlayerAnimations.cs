@@ -21,8 +21,8 @@ public class PlayerAnimations : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        anim.SetBool("isRunning", movement.isRunning);
-        anim.SetBool("isJumping", movement.isJumping);
-        anim.SetBool("isAttacking", movement.isAttacking);
+        //anim.SetBool("isRunning", movement.isRunning);
+        //anim.SetBool("isJumping", movement.isJumping);
+        //anim.SetBool("isAttacking", movement.isAttacking);
     }
 }
