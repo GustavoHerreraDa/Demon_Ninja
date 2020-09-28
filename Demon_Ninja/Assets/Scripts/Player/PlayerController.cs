@@ -20,9 +20,9 @@ public class PlayerController : MonoBehaviour
     public float groundDistance = .2f;
     public LayerMask groundLayer;
 
-    PlayerInput input;
+    public PlayerInput input;
     BoxCollider2D bodyCollider;
-    Rigidbody2D rigidBody;
+    public Rigidbody2D rigidBody;
 
     int direction = 1;
 
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         GroundMovement();
         MidAirMovement();
     }
-    private void GroundMovement()
+    public virtual void GroundMovement()
     {
         float xVelocity = speed * input.horizontal;
 
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
         transform.localScale = scale;
     }
 
-    private void MidAirMovement()
+    public virtual void MidAirMovement()
     {
         if (input.jumpPressed && !isJumping)
         {

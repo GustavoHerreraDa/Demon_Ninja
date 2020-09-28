@@ -21,7 +21,7 @@ public class NinjaController : PlayerController
         GroundMovement();
     }
 
-    new public void MidAirMovement()
+    public override void MidAirMovement()
     {
         if (input.jumpPressed && !isJumping && jumpCounter< 2)
         {
