@@ -17,7 +17,7 @@ public class NinjaController : PlayerController
     {
         
     }
-    void FixedUpdate()
+    public override void FixedUpdate()
     {
         MidAirMovement();
         GroundMovement();

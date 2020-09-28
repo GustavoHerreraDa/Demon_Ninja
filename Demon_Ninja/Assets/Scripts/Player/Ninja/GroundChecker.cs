@@ -14,7 +14,7 @@ public class GroundChecker : MonoBehaviour
         {
             ninjaControl.isJumping = false;
             ninjaControl.jumpCounter = 0;
-            Debug.Log("is grounded");
+            //Debug.Log("is grounded");
         }
     }
 }

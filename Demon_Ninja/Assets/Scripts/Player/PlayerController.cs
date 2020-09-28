@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     int direction = 1;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         isJumping = false;
-        Debug.Log("OnCollisionEnter2D");
+        //Debug.Log("OnCollisionEnter2D");
     }
 
 }
