@@ -506,16 +506,6 @@ MonoBehaviour:
   speed: 0
   patrolCurrentHitpoints: 0
   enemyRigidbody: {fileID: 266052224}
-  movHor: 0
-  isGroundFloor: 1
-  isGroundFront: 0
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  frontGrndRayDist: 0.25
-  floorCheckY: 0.52
-  frontCheck: 0.51
-  frontDist: 0.001
   scoreGive: 50
 --- !u!58 &266052223
 CircleCollider2D:
@@ -631,6 +621,7 @@ GameObject:
   - component: {fileID: 405294449}
   - component: {fileID: 405294448}
   - component: {fileID: 405294447}
+  - component: {fileID: 405294450}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -703,6 +694,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &405294450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405294446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c01ce94693f6c47819b04cc60e89ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bg0: {fileID: 0}
+  factor0: 1
+  bg1: {fileID: 0}
+  factor1: 0.5
+  bg2: {fileID: 0}
+  factor2: 0.25
 --- !u!1 &564623594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,16 +2061,6 @@ MonoBehaviour:
   speed: 0
   patrolCurrentHitpoints: 0
   enemyRigidbody: {fileID: 0}
-  movHor: -1
-  isGroundFloor: 1
-  isGroundFront: 0
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  frontGrndRayDist: 0.25
-  floorCheckY: 0.52
-  frontCheck: 0.51
-  frontDist: 0.001
   scoreGive: 50
 --- !u!58 &1250880394
 CircleCollider2D:
