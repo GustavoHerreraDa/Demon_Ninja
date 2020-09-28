@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Franco\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Franco\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Demon_Ninja.1356912179.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Franco\Documents\GitHub\Demon-Ninja_Server\Demon_Ninja\Demon_Ninja" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+          </e>
+          <e p="Menu" t="Include">
+            <e p="MenuManager.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Berserk" t="Include">
+              <e p="BerserkAxeAndShield.cs" t="Include" />
+              <e p="BerserkController.cs" t="Include" />
+              <e p="BerserkTwoAxe.cs" t="Include" />
+            </e>
+            <e p="Ninja" t="Include">
+              <e p="GroundChecker.cs" t="Include" />
+              <e p="NinjaAttackTrigger.cs" t="Include" />
+              <e p="NinjaController.cs" t="Include" />
+              <e p="NinjaMeleeAttack.cs" t="Include" />
+            </e>
+            <e p="PlayerAnimations.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="PlayerInput.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Demon_Ninja.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
