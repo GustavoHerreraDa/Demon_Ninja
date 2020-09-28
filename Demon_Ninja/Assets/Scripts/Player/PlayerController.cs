@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
         //PhysicsCheck();
         GroundMovement();
         MidAirMovement();
+        FlipCharacterDirection();
     }
     public virtual void GroundMovement()
     {
@@ -57,18 +58,29 @@ public class PlayerController : MonoBehaviour
             xVelocity = 0;
         }
 
-        if (xVelocity * direction < 0f)
-            FlipCharacterDirection();
+        /*if (xVelocity * direction < 0f)
+            FlipCharacterDirection();*/
 
         rigidBody.velocity = new Vector2(xVelocity, rigidBody.velocity.y);
 
     }
 
-    void FlipCharacterDirection()
+    public void FlipCharacterDirection()
     {
-        direction *= -1;
+        /*direction *= -1;
         Vector3 scale = transform.localScale;
-        transform.localScale = scale;
+        transform.localScale = scale;*/
+        if (rigidBody.velocity.x > 0)
+        {
+            transform.localScale = new Vector2(1,transform.localScale.y);
+        }
+        else
+        {
+            if (rigidBody.velocity.x < 0)
+            {
+                transform.localScale = new Vector2(-1, transform.localScale.y);
+            }
+        }
     }
 
     public virtual void MidAirMovement()

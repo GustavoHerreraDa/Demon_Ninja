@@ -8,29 +8,40 @@ public class NinjaAttackTrigger : MonoBehaviour
     private bool isAttacking = false;
 
     private float attackTimer = 0;
-    private float attackColdown = 0.3f;
+    private float meleeAttackColdown = 0.3f;
+    private float chainAttackColdown = 1;
 
+    public GameObject ninjaChain1;
+    public GameObject ninjaChain2;
+    
     public Collider2D attackTrigger;
 
+    public NinjaController ninjaController;
     public void Awake()
     {
         attackTrigger.enabled = false;
     }
     private void FixedUpdate()
     {
-        pressTheAttack();
-        checkIfCanAttack();
+        PressTheAttack();
+        CheckIfCanAttack();
     }
-    public void pressTheAttack()
+    public void PressTheAttack()
     {
-        if (Input.GetKeyDown("j") && attackTimer < 0.5f)
+        if (Input.GetKeyDown("j") && attackTimer < 0.1f)
         {
             isAttacking = true;
-            attackTimer = attackColdown;
+            attackTimer = meleeAttackColdown;
             attackTrigger.enabled = true;
         }
+        if (Input.GetKeyDown("h") && attackTimer < 0.1f)
+        {
+            isAttacking = true;
+            attackTimer = chainAttackColdown;
+            ChainAttack();
+        }
     }
-    public void checkIfCanAttack()
+    private void CheckIfCanAttack()
     {
         if (isAttacking)
         {
@@ -43,6 +54,28 @@ public class NinjaAttackTrigger : MonoBehaviour
                 isAttacking = false;
                 attackTrigger.enabled = false;
             }
+        }
+    }
+
+    private void ChainAttack()
+    {
+        float scale = ninjaController.transform.localScale.x;
+        Debug.Log(scale);
+        if (scale > 0)
+        {
+            GameObject ninjaChain = GameObject.Instantiate((ninjaChain1));
+            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(1,0,0);
+            ninjaChain.transform.up = ninjaController.transform.up;
+            ninjaChain.transform.localScale = ninjaController.transform.localScale;
+
+        }
+
+        if (scale < 0)
+        {
+            GameObject ninjaChain = GameObject.Instantiate((ninjaChain2));
+            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(-1, 0,0);;
+            ninjaChain.transform.up = ninjaController.transform.up;
+            ninjaChain.transform.localScale = ninjaController.transform.localScale;
         }
     }
 }

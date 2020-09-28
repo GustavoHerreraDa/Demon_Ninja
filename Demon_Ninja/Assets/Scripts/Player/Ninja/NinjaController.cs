@@ -19,6 +19,7 @@ public class NinjaController : PlayerController
     {
         MidAirMovement();
         GroundMovement();
+        FlipCharacterDirection();
     }
 
     public override void MidAirMovement()
