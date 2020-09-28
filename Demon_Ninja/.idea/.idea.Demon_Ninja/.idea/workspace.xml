@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,10 +42,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601256487184</updated>
-      <workItem from="1601256492973" duration="6757000" />
+      <workItem from="1601256492973" duration="10207000" />
     </task>
     <servers />
   </component>

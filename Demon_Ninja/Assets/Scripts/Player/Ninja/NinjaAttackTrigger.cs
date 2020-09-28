@@ -10,6 +10,7 @@ public class NinjaAttackTrigger : MonoBehaviour
     private float attackTimer = 0;
     private float meleeAttackColdown = 0.3f;
     private float chainAttackColdown = 1;
+    private int meleeDamage = 20;
 
     public GameObject ninjaChain1;
     public GameObject ninjaChain2;
@@ -17,6 +18,8 @@ public class NinjaAttackTrigger : MonoBehaviour
     public Collider2D attackTrigger;
 
     public NinjaController ninjaController;
+    
+    public Coroutine damageCoroutine;
     public void Awake()
     {
         attackTrigger.enabled = false;
@@ -76,6 +79,18 @@ public class NinjaAttackTrigger : MonoBehaviour
             ninjaChain.transform.position = ninjaController.transform.position + new Vector3(-1, 0,0);;
             ninjaChain.transform.up = ninjaController.transform.up;
             ninjaChain.transform.localScale = ninjaController.transform.localScale;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            PatrolEnemy patrolScript = collision.gameObject.GetComponent<PatrolEnemy>();
+            if (damageCoroutine == null)
+            {
+                damageCoroutine = StartCoroutine(patrolScript.DamageEntity(meleeDamage, 0));
+            }
         }
     }
 }

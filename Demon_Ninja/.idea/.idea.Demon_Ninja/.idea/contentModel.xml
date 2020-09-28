@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="NewBehaviourScript.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Enemies" t="Include">
+            <e p="PatrolEnemy.cs" t="Include" />
+          </e>
           <e p="Menu" t="Include">
             <e p="MenuManager.cs" t="Include" />
           </e>
