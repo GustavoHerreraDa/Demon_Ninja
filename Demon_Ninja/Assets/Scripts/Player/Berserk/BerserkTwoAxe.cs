@@ -11,10 +11,13 @@ public class BerserkTwoAxe : IBerserkAttackStrategy
 
     public void BasicAttack()
     {
-        
+        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.TwoAxes);
+        animator.SetTrigger("BasicAttack");
     }
 
     public void HeavyAttack()
     {
+        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.TwoAxes);
+        animator.SetTrigger("HeavyAttack");
     }
 }

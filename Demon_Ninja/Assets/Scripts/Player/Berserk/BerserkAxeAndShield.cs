@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BerserkAxeAndShield : IBerserkAttackStrategy
 {
@@ -11,10 +9,15 @@ public class BerserkAxeAndShield : IBerserkAttackStrategy
     }
     public void BasicAttack()
     {
-
+        Debug.Log("BerskerCombatStyle.AxeAndShield " + (int)BerskerCombatStyle.AxeAndShield);
+        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.AxeAndShield);
+        animator.SetTrigger("BasicAttack");
     }
 
     public void HeavyAttack()
     {
+        Debug.Log("BerskerCombatStyle.AxeAndShield " + (int)BerskerCombatStyle.AxeAndShield);
+        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.AxeAndShield);
+        animator.SetTrigger("HeavyAttack");
     }
 }

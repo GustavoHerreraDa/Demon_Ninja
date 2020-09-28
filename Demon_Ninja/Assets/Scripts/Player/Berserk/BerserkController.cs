@@ -25,40 +25,50 @@ public class BerserkController : PlayerController
     private BerserkAxeAndShield berserkAxeAndShield;
     private BerserkTwoAxe berserkTwoAxe;
 
+    private PlayerAnimations animations;
+
+
     public void Awake()
     {
-        berserkTwoAxe = new BerserkTwoAxe(animator);
-        berserkAxeAndShield = new BerserkAxeAndShield(animator);
+        berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
+        berserkAxeAndShield = new BerserkAxeAndShield(GetComponent<Animator>());
         berserkAttackStrategy = berserkAxeAndShield;
+    }
+
+    public override void FixedUpdate()
+    {
+        base.FixedUpdate();
     }
 
     public void ChangeCombatStyle()
     {
         if (berserkCombatStyle == BerskerCombatStyle.AxeAndShield)
         {
-            this.berserkCombatStyle = BerskerCombatStyle.TwoAxes;
+            this.berserkCombatStyle = BerskerCombatStyle.AxeAndShield;
+            berserkAttackStrategy = berserkAxeAndShield;
             return;
         }
 
         if (berserkCombatStyle == BerskerCombatStyle.TwoAxes)
         {
             this.berserkCombatStyle = BerskerCombatStyle.AxeAndShield;
+            berserkAttackStrategy = berserkTwoAxe;
             return;
         }
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             ChangeCombatStyle();
         }
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             StartCoroutine(BasicAttack());
             tempMovement = Vector2.zero;
         }
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             StartCoroutine(HeavyAttack());
             tempMovement = Vector2.zero;
@@ -68,18 +78,14 @@ public class BerserkController : PlayerController
 
     public IEnumerator BasicAttack()
     {
-        animator.SetBool("isAttacking", true);
         berserkAttackStrategy.BasicAttack();
         yield return new WaitForSeconds(0.3f);
-        animator.SetBool("isAttacking", false);
     }
 
     public IEnumerator HeavyAttack()
     {
-        animator.SetBool("isAttacking", true);
         berserkAttackStrategy.HeavyAttack();
         yield return new WaitForSeconds(0.3f);
-        animator.SetBool("isAttacking", false);
     }
 
 }

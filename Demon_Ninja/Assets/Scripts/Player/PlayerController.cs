@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void FixedUpdate()
+    public virtual void FixedUpdate()
     {
         //PhysicsCheck();
         GroundMovement();

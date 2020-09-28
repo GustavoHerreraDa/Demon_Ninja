@@ -7,7 +7,7 @@ public class PlayerAnimations : MonoBehaviour
     PlayerController movement;    
     Rigidbody2D rigidBody;
     PlayerInput input;          
-    Animator anim;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
