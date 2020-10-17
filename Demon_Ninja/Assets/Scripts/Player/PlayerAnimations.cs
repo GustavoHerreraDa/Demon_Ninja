@@ -7,10 +7,10 @@ public class PlayerAnimations : MonoBehaviour
     PlayerController movement;    
     Rigidbody2D rigidBody;
     PlayerInput input;          
-    public Animator anim;
+    Animator anim;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         movement = GetComponent<PlayerController>();
         rigidBody = GetComponent<Rigidbody2D>();
@@ -21,8 +21,10 @@ public class PlayerAnimations : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //anim.SetBool("isRunning", movement.isRunning);
-        //anim.SetBool("isJumping", movement.isJumping);
-        //anim.SetBool("isAttacking", movement.isAttacking);
+        Debug.Log("isRunning " + movement.isRunning);
+        Debug.Log("isJumping " + movement.isJumping);
+
+        anim.SetBool("isRunning", movement.isRunning);
+        anim.SetBool("isJumping", movement.isJumping);
     }
 }

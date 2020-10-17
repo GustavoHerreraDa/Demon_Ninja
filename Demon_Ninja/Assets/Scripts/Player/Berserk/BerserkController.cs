@@ -30,14 +30,12 @@ public class BerserkController : PlayerController
 
     public void Awake()
     {
+        input = GetComponent<PlayerInput>();
+        rigidBody = GetComponent<Rigidbody2D>();
+
         berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
         berserkAxeAndShield = new BerserkAxeAndShield(GetComponent<Animator>());
         berserkAttackStrategy = berserkAxeAndShield;
-    }
-
-    public override void FixedUpdate()
-    {
-        base.FixedUpdate();
     }
 
     public void ChangeCombatStyle()
