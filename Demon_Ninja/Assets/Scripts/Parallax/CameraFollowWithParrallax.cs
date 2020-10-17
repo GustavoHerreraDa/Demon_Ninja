@@ -32,12 +32,12 @@ public class CameraFollowWithParrallax : MonoBehaviour
         transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
     }
 
-    //void LateUpdate()
-    //{
-    //    nextCamPosFrame = transform.position.x;
+    void LateUpdate()
+    {
+        nextCamPosFrame = transform.position.x;
 
-    //    bg0.position = new Vector3(bg0.position.x + (nextCamPosFrame - iniCamPosFrame) * factor0, bg0.position.y, bg0.position.z);
-    //    bg1.position = new Vector3(bg1.position.x + (nextCamPosFrame - iniCamPosFrame) * factor1, bg1.position.y, bg1.position.z);
-    //    bg2.position = new Vector3(bg2.position.x + (nextCamPosFrame - iniCamPosFrame) * factor2, bg2.position.y, bg2.position.z);
-    //}
+        bg0.position = new Vector3(bg0.position.x + (nextCamPosFrame - iniCamPosFrame) * factor0, bg0.position.y, bg0.position.z);
+        bg1.position = new Vector3(bg1.position.x + (nextCamPosFrame - iniCamPosFrame) * factor1, bg1.position.y, bg1.position.z);
+        bg2.position = new Vector3(bg2.position.x + (nextCamPosFrame - iniCamPosFrame) * factor2, bg2.position.y, bg2.position.z);
+    }
 }
