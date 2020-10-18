@@ -14,6 +14,9 @@
           <e p="Menu" t="Include">
             <e p="MenuManager.cs" t="Include" />
           </e>
+          <e p="Parallax" t="Include">
+            <e p="CameraFollowWithParrallax.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="Berserk" t="Include">
               <e p="BerserkAxeAndShield.cs" t="Include" />
