@@ -7,6 +7,7 @@ public class NinjaController : PlayerController
     public float jumpCounter = 0;
     private float ninjaCurrentHitpoints;
     private float ninjaMaxHitpoints = 100;
+    public Animator ninjaAnimator;
     void Start()
     {
         ninjaCurrentHitpoints = ninjaMaxHitpoints;
@@ -15,7 +16,8 @@ public class NinjaController : PlayerController
     // Update is called once per frame
     void Update()
     {
-        
+        ninjaAnimator.SetBool("isJumping", isJumping);
+        ninjaAnimator.SetFloat("Speed", Mathf.Abs(rigidBody.velocity.x));
     }
     public override void FixedUpdate()
     {
@@ -34,26 +36,7 @@ public class NinjaController : PlayerController
             rigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
     } 
-    public IEnumerator DamageEntity(int damage, float interval)
-    {
-        while (true)
-        {
-            ninjaCurrentHitpoints = ninjaCurrentHitpoints - damage;
-            if (ninjaCurrentHitpoints <= float.Epsilon)
-            {
-                KillCharacter();
-                break;
-            }
-            if (interval > float.Epsilon)
-            {
-                yield return new WaitForSeconds(interval);
-            }
-            else
-            {
-                break;
-            }
-        }
-    }
+    
 
     private void KillCharacter()
     {

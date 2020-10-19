@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/GroundChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,13 +45,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +93,9 @@
       <workItem from="1601256492973" duration="10994000" />
       <workItem from="1602716087512" duration="1013000" />
       <workItem from="1602988011212" duration="434000" />
-      <workItem from="1603048833348" duration="3205000" />
+      <workItem from="1603048833348" duration="4022000" />
+      <workItem from="1603067309587" duration="4078000" />
+      <workItem from="1603075692943" duration="429000" />
     </task>
     <servers />
   </component>
@@ -112,5 +115,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1603074419424">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603074419424" />
   </component>
 </project>
