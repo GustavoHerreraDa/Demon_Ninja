@@ -121,7 +121,7 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   drawDebugRaycasts: 1
   speed: 8
-  jumpForce: 6.3
+  jumpForce: 7
   isJumping: 0
   isRunning: 0
   isAttacking: 0
