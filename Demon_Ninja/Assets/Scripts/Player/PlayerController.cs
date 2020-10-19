@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public PlayerInput input;
     BoxCollider2D bodyCollider;
     public Rigidbody2D rigidBody;
+    public SpriteRenderer playerSprite;
 
     int direction = 1;
 
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
+        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -72,13 +74,13 @@ public class PlayerController : MonoBehaviour
         transform.localScale = scale;*/
         if (rigidBody.velocity.x > 0)
         {
-            transform.localScale = new Vector2(1,transform.localScale.y);
+           transform.localScale =  new Vector2( 1,transform.localScale.y);
         }
         else
         {
             if (rigidBody.velocity.x < 0)
             {
-                transform.localScale = new Vector2(-1, transform.localScale.y);
+                transform.localScale =  new Vector2(-1, transform.localScale.y);
             }
         }
     }

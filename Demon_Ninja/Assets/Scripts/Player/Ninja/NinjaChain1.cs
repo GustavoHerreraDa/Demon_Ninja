@@ -44,11 +44,8 @@ public class NinjaChain1 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            PatrolEnemy patrolScript = collision.gameObject.GetComponent<PatrolEnemy>();
-            if (damageCoroutine == null)
-            {
-                damageCoroutine = StartCoroutine(patrolScript.DamageEntity(chainDamage, 0));
-            }
+            ZombieEnemy enemyScript = collision.gameObject.GetComponent<ZombieEnemy>();
+            enemyScript.GetDamage(chainDamage);
         }
     }
 }

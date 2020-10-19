@@ -47,7 +47,7 @@ public class PatrolEnemy : MonoBehaviour
             if (damageCoroutine == null)
             {
                 Debug.Log(patrolCurrentHitpoints);
-                damageCoroutine = StartCoroutine(ninjaScript.DamageEntity(enemyPatrolDamage, 0));
+              //  damageCoroutine = StartCoroutine(ninjaScript.DamageEntity(enemyPatrolDamage, 0));
             }
         }
     }

@@ -20,6 +20,8 @@ public class NinjaAttackTrigger : MonoBehaviour
     public NinjaController ninjaController;
     
     public Coroutine damageCoroutine;
+
+    public Animator ninjaAnimators;
     public void Awake()
     {
         attackTrigger.enabled = false;
@@ -36,12 +38,14 @@ public class NinjaAttackTrigger : MonoBehaviour
             isAttacking = true;
             attackTimer = meleeAttackColdown;
             attackTrigger.enabled = true;
+            ninjaAnimators.SetTrigger("Attack");
         }
         if (Input.GetKeyDown("h") && attackTimer < 0.1f)
         {
             isAttacking = true;
             attackTimer = chainAttackColdown;
             ChainAttack();
+            ninjaAnimators.SetTrigger("Throw");
         }
     }
     private void CheckIfCanAttack()
@@ -64,19 +68,19 @@ public class NinjaAttackTrigger : MonoBehaviour
     {
         float scale = ninjaController.transform.localScale.x;
         Debug.Log(scale);
-        if (scale > 0)
+        if (transform.localScale.x > 0)
         {
             GameObject ninjaChain = GameObject.Instantiate((ninjaChain1));
-            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(1,0,0);
+            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(1,-1,0);
             ninjaChain.transform.up = ninjaController.transform.up;
             ninjaChain.transform.localScale = ninjaController.transform.localScale;
 
         }
 
-        if (scale < 0)
+        if (transform.localScale.x < 0)
         {
             GameObject ninjaChain = GameObject.Instantiate((ninjaChain2));
-            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(-1, 0,0);;
+            ninjaChain.transform.position = ninjaController.transform.position + new Vector3(-1, -1,0);;
             ninjaChain.transform.up = ninjaController.transform.up;
             ninjaChain.transform.localScale = ninjaController.transform.localScale;
         }
@@ -86,11 +90,8 @@ public class NinjaAttackTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            PatrolEnemy patrolScript = collision.gameObject.GetComponent<PatrolEnemy>();
-            if (damageCoroutine == null)
-            {
-                damageCoroutine = StartCoroutine(patrolScript.DamageEntity(meleeDamage, 0));
-            }
+            ZombieEnemy enemyScript = collision.gameObject.GetComponent<ZombieEnemy>();
+            enemyScript.GetDamage(meleeDamage);
         }
     }
 }
