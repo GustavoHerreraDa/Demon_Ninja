@@ -1,0 +1,1318 @@
+fileFormatVersion: 2
+guid: ad8a474d5423a2d44ab321158b1e799f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7875814932738667555
+    second: Enemies - Fantasy_0
+  - first:
+      213: -5518925246484577290
+    second: Enemies - Fantasy_1
+  - first:
+      213: -846860616229180233
+    second: Enemies - Fantasy_2
+  - first:
+      213: -4050998416288080958
+    second: Enemies - Fantasy_3
+  - first:
+      213: -2671878141536767096
+    second: Enemies - Fantasy_4
+  - first:
+      213: -5205363015938887815
+    second: Enemies - Fantasy_5
+  - first:
+      213: 3844688260799162751
+    second: Enemies - Fantasy_6
+  - first:
+      213: 2177997204235927260
+    second: Enemies - Fantasy_7
+  - first:
+      213: 6588570167117991950
+    second: Enemies - Fantasy_8
+  - first:
+      213: -744756769476248238
+    second: Enemies - Fantasy_9
+  - first:
+      213: -8663793350211192564
+    second: Enemies - Fantasy_10
+  - first:
+      213: -5174779473698647845
+    second: Enemies - Fantasy_11
+  - first:
+      213: 3346176800056533014
+    second: Enemies - Fantasy_12
+  - first:
+      213: 3208867037991839006
+    second: Enemies - Fantasy_13
+  - first:
+      213: -105673301782814059
+    second: Enemies - Fantasy_14
+  - first:
+      213: -6224233020967566342
+    second: Enemies - Fantasy_15
+  - first:
+      213: 4895181437288357439
+    second: Enemies - Fantasy_16
+  - first:
+      213: -2204628816297185646
+    second: Enemies - Fantasy_17
+  - first:
+      213: 1659580979964481258
+    second: Enemies - Fantasy_18
+  - first:
+      213: 8445237936894294696
+    second: Enemies - Fantasy_19
+  - first:
+      213: 471815676448929207
+    second: Enemies - Fantasy_20
+  - first:
+      213: 9188269995694597155
+    second: Enemies - Fantasy_21
+  - first:
+      213: -5779895417071543394
+    second: Enemies - Fantasy_22
+  - first:
+      213: -6845239542844183718
+    second: Enemies - Fantasy_23
+  - first:
+      213: 547109749348736741
+    second: Enemies - Fantasy_24
+  - first:
+      213: -3538247330203277562
+    second: Enemies - Fantasy_25
+  - first:
+      213: -7870122736884147788
+    second: Enemies - Fantasy_26
+  - first:
+      213: 2564904749308037150
+    second: Enemies - Fantasy_27
+  - first:
+      213: -6893701458733054873
+    second: Enemies - Fantasy_28
+  - first:
+      213: 1667674301454920280
+    second: Enemies - Fantasy_29
+  - first:
+      213: -4078254285553493727
+    second: Enemies - Fantasy_30
+  - first:
+      213: -3902791220714105932
+    second: Enemies - Fantasy_31
+  - first:
+      213: -8709836197689278789
+    second: Enemies - Fantasy_32
+  - first:
+      213: -6030214277109807819
+    second: Enemies - Fantasy_33
+  - first:
+      213: -4094736138909034238
+    second: Enemies - Fantasy_34
+  - first:
+      213: -1424593156567921602
+    second: Enemies - Fantasy_35
+  - first:
+      213: 1038167425019932681
+    second: Enemies - Fantasy_36
+  - first:
+      213: 608250828736337333
+    second: Enemies - Fantasy_37
+  - first:
+      213: 7867781087398371025
+    second: Enemies - Fantasy_38
+  - first:
+      213: 6875079120356504222
+    second: Enemies - Fantasy_39
+  - first:
+      213: -5274710718474406807
+    second: Enemies - Fantasy_40
+  - first:
+      213: -5917351745056009093
+    second: Enemies - Fantasy_41
+  - first:
+      213: -6861526895181216576
+    second: Enemies - Fantasy_42
+  - first:
+      213: 1270648333477914586
+    second: Enemies - Fantasy_43
+  - first:
+      213: -2163681638425160195
+    second: Enemies - Fantasy_44
+  - first:
+      213: -2674826580317317459
+    second: Enemies - Fantasy_45
+  - first:
+      213: 7851947312541068264
+    second: Enemies - Fantasy_46
+  - first:
+      213: -8109486462229475796
+    second: Enemies - Fantasy_47
+  - first:
+      213: -5713029254537784546
+    second: Enemies - Fantasy_48
+  - first:
+      213: 8214446172314302917
+    second: Enemies - Fantasy_49
+  - first:
+      213: 3936465461732711867
+    second: Enemies - Fantasy_50
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies - Fantasy_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 192
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99380e50e7ed0934793caa4bcc94081e
+      internalID: -7875814932738667555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 192
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d114bdbb877073549b8fa4d9219d25db
+      internalID: -5518925246484577290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 192
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53cd818c8065324b8087e80139e6417
+      internalID: -846860616229180233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14395e161612f0b4ea4d03d642c16486
+      internalID: -4050998416288080958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9057783a0b67c5c46bd0abc34998dbd6
+      internalID: -2671878141536767096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 192
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0732e72790bf840a13e435bb4ba84b
+      internalID: -5205363015938887815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a886de618ad8c1c48a4ed2af2a5097f2
+      internalID: 3844688260799162751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf8148fc912ac54abac006325dae400
+      internalID: 2177997204235927260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f53b5e6e1fb769458385e663d7fc841
+      internalID: 6588570167117991950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9999eb11130dd48adae5c09b709a2b
+      internalID: -744756769476248238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe8098002b0e104aaa042edab945f0b
+      internalID: -8663793350211192564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f00212491f17cd47852f4a984a74618
+      internalID: -5174779473698647845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c33901f89c9ff4faef57e294de9e38
+      internalID: 3346176800056533014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_13
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 160
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31df13d207d3ba43a87cde3b7940126
+      internalID: 3208867037991839006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10d8539cc6cc00498d0a98f4333fc2c
+      internalID: -105673301782814059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75362f15deebf8d42a90c465608c3461
+      internalID: -6224233020967566342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 128
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f52fbbe707c123449437a65ec116ccf
+      internalID: 4895181437288357439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997e93c003291224d917da4482838e76
+      internalID: -2204628816297185646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 128
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60195ca6a18f3a6448f7bb3c4cee15b0
+      internalID: 1659580979964481258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 128
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068430524f00bbc4b924d75816c3d85b
+      internalID: 8445237936894294696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f683297391d8c4a8afd198a5508aa1
+      internalID: 471815676448929207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b62cc618541994d9c3729ef9b0f451
+      internalID: 9188269995694597155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 96
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f5d323ecf5754c87909385c14cf8f
+      internalID: -5779895417071543394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 119
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0a6ef6921ef84d92164eff9da4c19
+      internalID: 547109749348736741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 96
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6edf5aaa1b9e01498706e825c9df8b2
+      internalID: -3538247330203277562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530436667e7accb45b3bd64f429f8230
+      internalID: -7870122736884147788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 96
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9778ec5634f2c3147b77d1f46cd463b2
+      internalID: 2564904749308037150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 68
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ee8b1d88c2df42916834916ae0884
+      internalID: -6893701458733054873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 66
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615a6e1c3b1d53a4283389fe40532988
+      internalID: 1667674301454920280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_30
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 65
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d482e1ca1eea3e4bafa338d84167142
+      internalID: -4078254285553493727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8705d6b9939598b46942e27009007179
+      internalID: -3902791220714105932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cb10777ed35f943b127cd61e483f80
+      internalID: -8709836197689278789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 69
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626d6b7e04fd7304c8d995eeb45f2e28
+      internalID: -6030214277109807819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 36
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fb81ba33eb50d438bdef8509eac12b
+      internalID: -4094736138909034238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 35
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f772f8b43aafe45b1d0810453c3313
+      internalID: -1424593156567921602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9a8c1db3651b048b516d0c852b5903
+      internalID: 1038167425019932681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 52
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64fdbdfb980a874ab1c0d8ffa1fe25a
+      internalID: 608250828736337333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0be9f6941699744b2970196f3c2de7
+      internalID: 7867781087398371025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b618b10b0be824f953d9c85088878f
+      internalID: 6875079120356504222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9988b6ee2d4b584f81f9457cde5f1b5
+      internalID: -5274710718474406807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829832b5d6dc22144b45471159ae4bfa
+      internalID: -5917351745056009093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_42
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 16
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded80af7115f0d4aab1f1243a61b22e
+      internalID: -6861526895181216576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c50d4a7f4643d419a6e6aa93dc5550
+      internalID: 1270648333477914586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd03f87963128e4ebc0eeaddc4f90d2
+      internalID: -2163681638425160195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c339a8576aae86b4ba46f665b5493e61
+      internalID: -2674826580317317459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f775c59639a61044a27fc758c99be99
+      internalID: 7851947312541068264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 22
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780a42d622334124fb1268c927f2b831
+      internalID: -8109486462229475796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 8
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa6b40c3d9e59d4691194306a7a33f9
+      internalID: -5713029254537784546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_49
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 11
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc37bfd7acd4604597c24fc1446a2a0
+      internalID: 8214446172314302917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies - Fantasy_50
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c091fb607284d314a96199d485794b7b
+      internalID: 3936465461732711867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
