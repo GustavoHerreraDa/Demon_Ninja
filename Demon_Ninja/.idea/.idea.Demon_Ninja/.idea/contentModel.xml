@@ -6,12 +6,14 @@
     <e p="C:\Users\Franco\Documents\GitHub\Demon-Ninja_Server\Demon_Ninja\Demon_Ninja" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="NewBehaviourScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Enemies" t="Include">
+            <e p="DistanceEnemy.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
             <e p="PatrolEnemy.cs" t="Include" />
             <e p="ZombieEnemy.cs" t="Include" />
           </e>
+          <e p="Health.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="MenuManager.cs" t="Include" />
           </e>
@@ -35,6 +37,9 @@
             <e p="PlayerAnimations.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="PlayerInput.cs" t="Include" />
+          </e>
+          <e p="Projectile" t="Include">
+            <e p="Projectile.cs" t="Include" />
           </e>
         </e>
       </e>
