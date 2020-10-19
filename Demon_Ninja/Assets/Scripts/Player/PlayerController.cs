@@ -74,15 +74,13 @@ public class PlayerController : MonoBehaviour
         transform.localScale = scale;*/
         if (rigidBody.velocity.x > 0)
         {
-           // transform.localScale =  new Vector2( 1,transform.localScale.y);
-           playerSprite.flipX = false;
+           transform.localScale =  new Vector2( 1,transform.localScale.y);
         }
         else
         {
             if (rigidBody.velocity.x < 0)
             {
-                //transform.localScale =  new Vector2(-1, transform.localScale.y);
-                playerSprite.flipX = true;
+                transform.localScale =  new Vector2(-1, transform.localScale.y);
             }
         }
     }

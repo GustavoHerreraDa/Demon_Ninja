@@ -171,7 +171,6 @@ MonoBehaviour:
   attackTrigger: {fileID: 71566447}
   ninjaController: {fileID: 130613048}
   ninjaAnimators: {fileID: 0}
-  shotDirection: 0
 --- !u!61 &71566447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3636,18 +3635,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.165, y: -0.17}
+  m_Offset: {x: 1.0753438, y: -0.79434013}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 1}
-    oldSize: {x: 0.33, y: 0.34}
+    oldSize: {x: 1.65, y: 1.7}
     newSize: {x: 0.33, y: 0.34}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33, y: 0.34}
+  m_Size: {x: 1.192431, y: 1.5886803}
   m_EdgeRadius: 0
 --- !u!212 &1087242241
 SpriteRenderer:
@@ -3708,7 +3707,7 @@ Transform:
   m_GameObject: {fileID: 1087242235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.73, y: 4.37, z: 0}
-  m_LocalScale: {x: 6.229545, y: 6.229545, z: 6.229545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1782066069}
   - {fileID: 1156865043}
@@ -4071,7 +4070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156865042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35845375, y: -0.16062021, z: -0.19031869}
+  m_LocalPosition: {x: 1.589, y: -0.628, z: -0.19031869}
   m_LocalScale: {x: 0.16052537, y: 0.16052537, z: 0.16052537}
   m_Children: []
   m_Father: {fileID: 1087242242}
@@ -4090,7 +4089,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.010172, y: -1.010172}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4101,7 +4100,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.020344, y: 3.020344}
   m_EdgeRadius: 0
 --- !u!114 &1156865045
 MonoBehaviour:
@@ -4122,7 +4121,6 @@ MonoBehaviour:
   attackTrigger: {fileID: 1156865044}
   ninjaController: {fileID: 1087242236}
   ninjaAnimators: {fileID: 1087242239}
-  shotDirection: 0
 --- !u!1 &1170426572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,12 +4693,12 @@ PrefabInstance:
     - target: {fileID: 6660842304040267627, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0837865
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 6660842304040267627, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1012917
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 6660842304040267627, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
         type: 3}
@@ -5160,7 +5158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782066068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2043494, y: -0.33559287, z: -0.19031869}
+  m_LocalPosition: {x: 0.681, y: -1.681, z: -0.19031869}
   m_LocalScale: {x: 0.16052537, y: 0.16052537, z: 0.16052537}
   m_Children: []
   m_Father: {fileID: 1087242242}
@@ -5179,7 +5177,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.08111763, y: 0.04055834}
+  m_Offset: {x: 2.309438, y: 0.13698997}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5190,7 +5188,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1622353, y: 0.107705116}
+  m_Size: {x: 5.618877, y: 0.30056837}
   m_EdgeRadius: 0
 --- !u!114 &1782066071
 MonoBehaviour:

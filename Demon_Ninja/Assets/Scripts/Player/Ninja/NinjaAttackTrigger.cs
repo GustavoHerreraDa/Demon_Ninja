@@ -22,7 +22,6 @@ public class NinjaAttackTrigger : MonoBehaviour
     public Coroutine damageCoroutine;
 
     public Animator ninjaAnimators;
-    public bool shotDirection;
     public void Awake()
     {
         attackTrigger.enabled = false;
@@ -31,8 +30,7 @@ public class NinjaAttackTrigger : MonoBehaviour
     {
         PressTheAttack();
         CheckIfCanAttack();
-        shotDirection = ninjaController.playerSprite.flipX;
-}
+    }
     public void PressTheAttack()
     {
         if (Input.GetKeyDown("j") && attackTimer < 0.1f)
@@ -70,7 +68,7 @@ public class NinjaAttackTrigger : MonoBehaviour
     {
         float scale = ninjaController.transform.localScale.x;
         Debug.Log(scale);
-        if (shotDirection == false)
+        if (transform.localScale.x > 0)
         {
             GameObject ninjaChain = GameObject.Instantiate((ninjaChain1));
             ninjaChain.transform.position = ninjaController.transform.position + new Vector3(1,-1,0);
@@ -79,7 +77,7 @@ public class NinjaAttackTrigger : MonoBehaviour
 
         }
 
-        if (shotDirection)
+        if (transform.localScale.x < 0)
         {
             GameObject ninjaChain = GameObject.Instantiate((ninjaChain2));
             ninjaChain.transform.position = ninjaController.transform.position + new Vector3(-1, -1,0);;
