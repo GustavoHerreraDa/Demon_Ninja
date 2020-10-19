@@ -147,6 +147,7 @@ MonoBehaviour:
     type: 3}
   attackTrigger: {fileID: 379454641442528852}
   ninjaController: {fileID: 379454641502911405}
+  ninjaAnimators: {fileID: 0}
 --- !u!1 &379454641502911394
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +164,7 @@ GameObject:
   - component: {fileID: 379454641502911395}
   m_Layer: 0
   m_Name: Ninja
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,6 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d90b79f0d349394194612d73b5adccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthSlider: {fileID: 0}
   drawDebugRaycasts: 1
   speed: 8
   jumpForce: 6.3
@@ -272,7 +274,9 @@ MonoBehaviour:
     m_Bits: 0
   input: {fileID: 379454641502911406}
   rigidBody: {fileID: 379454641502911404}
+  playerSprite: {fileID: 0}
   jumpCounter: 0
+  ninjaAnimator: {fileID: 0}
 --- !u!50 &379454641502911404
 Rigidbody2D:
   serializedVersion: 4
