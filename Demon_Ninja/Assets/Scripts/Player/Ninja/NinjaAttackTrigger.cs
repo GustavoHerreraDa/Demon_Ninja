@@ -91,7 +91,7 @@ public class NinjaAttackTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             ZombieEnemy enemyScript = collision.gameObject.GetComponent<ZombieEnemy>();
-            enemyScript.GetDamage(meleeDamage);
+            enemyScript.substractHealth(meleeDamage);
         }
     }
 }

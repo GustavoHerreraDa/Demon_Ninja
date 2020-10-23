@@ -1,0 +1,3091 @@
+fileFormatVersion: 2
+guid: 724bac7184a4e2248af7e37d21f4254b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1572609662710888414
+    second: UI - Fantasy_Standard - Middle_0
+  - first:
+      213: 3801456528978958559
+    second: UI - Fantasy_Standard - Middle_1
+  - first:
+      213: 922624348758417573
+    second: UI - Fantasy_Standard - Middle_2
+  - first:
+      213: -7775313785409593915
+    second: UI - Fantasy_Standard - Middle_3
+  - first:
+      213: -7265163727165788819
+    second: UI - Fantasy_Standard - Middle_4
+  - first:
+      213: 4752783111280752003
+    second: UI - Fantasy_Standard - Middle_5
+  - first:
+      213: -1913888501672514171
+    second: UI - Fantasy_Standard - Middle_6
+  - first:
+      213: 6795218384536479872
+    second: UI - Fantasy_Standard - Middle_7
+  - first:
+      213: 7485651725200653046
+    second: UI - Fantasy_Standard - Middle_8
+  - first:
+      213: 5210666834915713160
+    second: UI - Fantasy_Standard - Middle_9
+  - first:
+      213: -7676787426135421309
+    second: UI - Fantasy_Standard - Middle_10
+  - first:
+      213: -5880009858629889945
+    second: UI - Fantasy_Standard - Middle_11
+  - first:
+      213: 2390845306330717698
+    second: UI - Fantasy_Standard - Middle_12
+  - first:
+      213: -2433375897731263113
+    second: UI - Fantasy_Standard - Middle_13
+  - first:
+      213: 3197158934350805729
+    second: UI - Fantasy_Standard - Middle_14
+  - first:
+      213: 8900600536364587168
+    second: UI - Fantasy_Standard - Middle_15
+  - first:
+      213: 8921116384469709668
+    second: UI - Fantasy_Standard - Middle_16
+  - first:
+      213: -408612859562845205
+    second: UI - Fantasy_Standard - Middle_17
+  - first:
+      213: 1884689084772512138
+    second: UI - Fantasy_Standard - Middle_18
+  - first:
+      213: 3231215839716381632
+    second: UI - Fantasy_Standard - Middle_19
+  - first:
+      213: -4746293239074147091
+    second: UI - Fantasy_Standard - Middle_20
+  - first:
+      213: 8095087534067425777
+    second: UI - Fantasy_Standard - Middle_21
+  - first:
+      213: -2041912016131809600
+    second: UI - Fantasy_Standard - Middle_22
+  - first:
+      213: -7541922465963456258
+    second: UI - Fantasy_Standard - Middle_23
+  - first:
+      213: -5066413760114823950
+    second: UI - Fantasy_Standard - Middle_24
+  - first:
+      213: -9157791970819403595
+    second: UI - Fantasy_Standard - Middle_25
+  - first:
+      213: -7730270525278174006
+    second: UI - Fantasy_Standard - Middle_26
+  - first:
+      213: -450016460358126208
+    second: UI - Fantasy_Standard - Middle_27
+  - first:
+      213: -7399341226806921966
+    second: UI - Fantasy_Standard - Middle_28
+  - first:
+      213: -8710847278473903361
+    second: UI - Fantasy_Standard - Middle_29
+  - first:
+      213: 5190323993351205989
+    second: UI - Fantasy_Standard - Middle_30
+  - first:
+      213: -5781951334506521689
+    second: UI - Fantasy_Standard - Middle_31
+  - first:
+      213: 5704877721765594506
+    second: UI - Fantasy_Standard - Middle_32
+  - first:
+      213: -6225920444739224083
+    second: UI - Fantasy_Standard - Middle_33
+  - first:
+      213: -2806348449974617102
+    second: UI - Fantasy_Standard - Middle_34
+  - first:
+      213: 8094637938220775994
+    second: UI - Fantasy_Standard - Middle_35
+  - first:
+      213: 4830977041288942982
+    second: UI - Fantasy_Standard - Middle_36
+  - first:
+      213: -7984158825250043097
+    second: UI - Fantasy_Standard - Middle_37
+  - first:
+      213: 7077749310775935632
+    second: UI - Fantasy_Standard - Middle_38
+  - first:
+      213: -5131781008561328828
+    second: UI - Fantasy_Standard - Middle_39
+  - first:
+      213: 4657135430742082108
+    second: UI - Fantasy_Standard - Middle_40
+  - first:
+      213: -5281121184862043338
+    second: UI - Fantasy_Standard - Middle_41
+  - first:
+      213: 2974408328869428167
+    second: UI - Fantasy_Standard - Middle_42
+  - first:
+      213: 798727381876634591
+    second: UI - Fantasy_Standard - Middle_43
+  - first:
+      213: 800883330561362419
+    second: UI - Fantasy_Standard - Middle_44
+  - first:
+      213: -3654342326225123000
+    second: UI - Fantasy_Standard - Middle_45
+  - first:
+      213: -8568999608864309430
+    second: UI - Fantasy_Standard - Middle_46
+  - first:
+      213: -5934663935731279505
+    second: UI - Fantasy_Standard - Middle_47
+  - first:
+      213: 5745016778063924455
+    second: UI - Fantasy_Standard - Middle_48
+  - first:
+      213: 3309299192909234872
+    second: UI - Fantasy_Standard - Middle_49
+  - first:
+      213: 8555242119007947496
+    second: UI - Fantasy_Standard - Middle_50
+  - first:
+      213: -5381252318321657684
+    second: UI - Fantasy_Standard - Middle_51
+  - first:
+      213: 9212087288984699245
+    second: UI - Fantasy_Standard - Middle_52
+  - first:
+      213: -4410406427721936831
+    second: UI - Fantasy_Standard - Middle_53
+  - first:
+      213: 4303991300986778655
+    second: UI - Fantasy_Standard - Middle_54
+  - first:
+      213: 7273686490165583233
+    second: UI - Fantasy_Standard - Middle_55
+  - first:
+      213: -3146701043259660918
+    second: UI - Fantasy_Standard - Middle_56
+  - first:
+      213: -6785807935748658427
+    second: UI - Fantasy_Standard - Middle_57
+  - first:
+      213: -6168717044856742914
+    second: UI - Fantasy_Standard - Middle_58
+  - first:
+      213: -819604524559920854
+    second: UI - Fantasy_Standard - Middle_59
+  - first:
+      213: 5734187879668220444
+    second: UI - Fantasy_Standard - Middle_60
+  - first:
+      213: 532875206853378876
+    second: UI - Fantasy_Standard - Middle_61
+  - first:
+      213: -3316659625720217307
+    second: UI - Fantasy_Standard - Middle_62
+  - first:
+      213: -2707406053913494599
+    second: UI - Fantasy_Standard - Middle_63
+  - first:
+      213: -4680166136264330916
+    second: UI - Fantasy_Standard - Middle_64
+  - first:
+      213: 6459962389160216487
+    second: UI - Fantasy_Standard - Middle_65
+  - first:
+      213: 8402186934033079414
+    second: UI - Fantasy_Standard - Middle_66
+  - first:
+      213: 732986169659119711
+    second: UI - Fantasy_Standard - Middle_67
+  - first:
+      213: -3378167912706464597
+    second: UI - Fantasy_Standard - Middle_68
+  - first:
+      213: 2352148458519979114
+    second: UI - Fantasy_Standard - Middle_69
+  - first:
+      213: 3566185634062868899
+    second: UI - Fantasy_Standard - Middle_70
+  - first:
+      213: 20152539586357346
+    second: UI - Fantasy_Standard - Middle_71
+  - first:
+      213: -2946762150056451740
+    second: UI - Fantasy_Standard - Middle_72
+  - first:
+      213: 1684813813213091640
+    second: UI - Fantasy_Standard - Middle_73
+  - first:
+      213: -4318914066745010354
+    second: UI - Fantasy_Standard - Middle_74
+  - first:
+      213: -8521194660779048139
+    second: UI - Fantasy_Standard - Middle_75
+  - first:
+      213: -3807769970347061305
+    second: UI - Fantasy_Standard - Middle_76
+  - first:
+      213: -4620352667769110554
+    second: UI - Fantasy_Standard - Middle_77
+  - first:
+      213: -2644954937477567302
+    second: UI - Fantasy_Standard - Middle_78
+  - first:
+      213: 9152600840692783758
+    second: UI - Fantasy_Standard - Middle_79
+  - first:
+      213: 2599264931822831593
+    second: UI - Fantasy_Standard - Middle_80
+  - first:
+      213: 4230467430100848076
+    second: UI - Fantasy_Standard - Middle_81
+  - first:
+      213: 6827107835509907556
+    second: UI - Fantasy_Standard - Middle_82
+  - first:
+      213: 4206272196157660398
+    second: UI - Fantasy_Standard - Middle_83
+  - first:
+      213: 1082845146292474989
+    second: UI - Fantasy_Standard - Middle_84
+  - first:
+      213: 6690642736799941789
+    second: UI - Fantasy_Standard - Middle_85
+  - first:
+      213: 3621610469522323265
+    second: UI - Fantasy_Standard - Middle_86
+  - first:
+      213: -3054146425675848847
+    second: UI - Fantasy_Standard - Middle_87
+  - first:
+      213: -7663895929150602211
+    second: UI - Fantasy_Standard - Middle_88
+  - first:
+      213: 4845743817837793308
+    second: UI - Fantasy_Standard - Middle_89
+  - first:
+      213: -4128283112702534761
+    second: UI - Fantasy_Standard - Middle_90
+  - first:
+      213: -5598031556415857302
+    second: UI - Fantasy_Standard - Middle_91
+  - first:
+      213: -118607867219173876
+    second: UI - Fantasy_Standard - Middle_92
+  - first:
+      213: -623123956963124839
+    second: UI - Fantasy_Standard - Middle_93
+  - first:
+      213: 5676248424091825275
+    second: UI - Fantasy_Standard - Middle_94
+  - first:
+      213: -5430365111915266195
+    second: UI - Fantasy_Standard - Middle_95
+  - first:
+      213: 1132953210340388566
+    second: UI - Fantasy_Standard - Middle_96
+  - first:
+      213: -8953049948468106208
+    second: UI - Fantasy_Standard - Middle_97
+  - first:
+      213: 286932055548947958
+    second: UI - Fantasy_Standard - Middle_98
+  - first:
+      213: -4656835623743785572
+    second: UI - Fantasy_Standard - Middle_99
+  - first:
+      213: -3785603606419918377
+    second: UI - Fantasy_Standard - Middle_100
+  - first:
+      213: 3145494561873557992
+    second: UI - Fantasy_Standard - Middle_101
+  - first:
+      213: -2961630111473274595
+    second: UI - Fantasy_Standard - Middle_102
+  - first:
+      213: 7308181798497542955
+    second: UI - Fantasy_Standard - Middle_103
+  - first:
+      213: -7593976001693541449
+    second: UI - Fantasy_Standard - Middle_104
+  - first:
+      213: 8773606326984795771
+    second: UI - Fantasy_Standard - Middle_105
+  - first:
+      213: -4760062925227975863
+    second: UI - Fantasy_Standard - Middle_106
+  - first:
+      213: 192036452057855510
+    second: UI - Fantasy_Standard - Middle_107
+  - first:
+      213: -6381218330289209692
+    second: UI - Fantasy_Standard - Middle_108
+  - first:
+      213: -82398291844099943
+    second: UI - Fantasy_Standard - Middle_109
+  - first:
+      213: -4137197716187533393
+    second: UI - Fantasy_Standard - Middle_110
+  - first:
+      213: 5404234925929556389
+    second: UI - Fantasy_Standard - Middle_111
+  - first:
+      213: 7927255636234815651
+    second: UI - Fantasy_Standard - Middle_112
+  - first:
+      213: 6681475513605719482
+    second: UI - Fantasy_Standard - Middle_113
+  - first:
+      213: 3893034599841253843
+    second: UI - Fantasy_Standard - Middle_114
+  - first:
+      213: 7977888712891779844
+    second: UI - Fantasy_Standard - Middle_115
+  - first:
+      213: -1049065539934462358
+    second: UI - Fantasy_Standard - Middle_116
+  - first:
+      213: -352804802353429170
+    second: UI - Fantasy_Standard - Middle_117
+  - first:
+      213: 8627240933964804199
+    second: UI - Fantasy_Standard - Middle_118
+  - first:
+      213: 5110670239957726980
+    second: UI - Fantasy_Standard - Middle_119
+  - first:
+      213: 8154810213141288282
+    second: UI - Fantasy_Standard - Middle_120
+  - first:
+      213: -977928440823484986
+    second: UI - Fantasy_Standard - Middle_121
+  - first:
+      213: -5169402758671820017
+    second: UI - Fantasy_Standard - Middle_122
+  - first:
+      213: -7931706952094274696
+    second: UI - Fantasy_Standard - Middle_123
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 632
+        width: 96
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789286e43949644fbf6f8afd7ce22e5
+      internalID: 1572609662710888414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 486
+        width: 123
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0bcbf6fa8068b4584206cbeeb64413
+      internalID: 3801456528978958559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 630
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf8433c4e3244749894b9780d7871df
+      internalID: 922624348758417573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 627
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88607cf8401d2434a904e803cf1acc87
+      internalID: -7775313785409593915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 605
+        width: 69
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c9236c127bde942949a4cec4489db2
+      internalID: -7265163727165788819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4e724a66b5d94293463c782bc60d0
+      internalID: 4752783111280752003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bcb0c98ec3f6e43a74baf285b7cb57
+      internalID: -1913888501672514171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 604
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d6b77deb52b545bb3a0fc4455d14b
+      internalID: 6795218384536479872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 573
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6df53fe2586b0f41869359161867012
+      internalID: 7485651725200653046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 577
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abea0710243a9df4aa14d5727b3a91d0
+      internalID: 5210666834915713160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 573
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d85b94f65c2e884384658d25d4a9db1
+      internalID: -7676787426135421309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 569
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308e775c3a7f9cf49b3e425168d65144
+      internalID: -5880009858629889945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 573
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c02853e8adf704ca6d37fe595cdba1
+      internalID: 2390845306330717698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_13
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 573
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abe11e15b8dbec41a7848e0c014461a
+      internalID: -2433375897731263113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 573
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c732a934fb6a6dc46a10358f34f306b9
+      internalID: 3197158934350805729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_15
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 573
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68127e43a77fec249a35ae9e3696e71d
+      internalID: 8900600536364587168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 542
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1eef9ed13813d439be0e381495e651
+      internalID: 8921116384469709668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_17
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86471aee33e8bb64e8495dc49f261626
+      internalID: -408612859562845205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_18
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54101e1c5031db24f98b9917163ee50d
+      internalID: 1884689084772512138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_19
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15937ee8989c66e4db1543f0e4c1b26f
+      internalID: 3231215839716381632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6d215449def8344a4fb79e6c85673f
+      internalID: -4746293239074147091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_21
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a28f2065d000488689e1a7215dc35
+      internalID: 8095087534067425777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_22
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 546
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae9623d1f749d6499c6390f206e5eca
+      internalID: -2041912016131809600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 521
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3091672528c24f9a193e43028e012
+      internalID: -7541922465963456258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad706d2bae829740a7c7e9fd5653c4e
+      internalID: -5066413760114823950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14da9f1260fc63845b10f01a52a53854
+      internalID: -9157791970819403595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49478eb4be07e0c4491113e160618979
+      internalID: -7730270525278174006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_27
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfa93501c99fa64e9427d2fa8dcbcda
+      internalID: -450016460358126208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_28
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be688b24080d10408158b3822e276c5
+      internalID: -7399341226806921966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 519
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489edd6a3831a4e469c0c032c0da7151
+      internalID: -8710847278473903361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_30
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 494
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167dd18220b28204b911e5d56a95edc4
+      internalID: 5190323993351205989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_31
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d006cc5a91898484fb3f9c5b46639725
+      internalID: -5781951334506521689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_32
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67919358ecec26545b7e5565bb9f78ac
+      internalID: 5704877721765594506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_33
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50df33d814b003544859048efb0326f8
+      internalID: -6225920444739224083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4459bc6acc2b5144d999a672a33d91d4
+      internalID: -2806348449974617102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_35
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a133c1988698aa84db2da13ba1d6dac6
+      internalID: 8094637938220775994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_36
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 492
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70088f3a8ffea47a0b746093eda387
+      internalID: 4830977041288942982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_37
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 444
+        width: 106
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27694565c8ab153479742e35c8725866
+      internalID: -7984158825250043097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_38
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 461
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293aeb1bb119f2744a3dec8581fb1c01
+      internalID: 7077749310775935632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 461
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e4842b4ab147469350fa748bd0e4d
+      internalID: -5131781008561328828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_40
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 461
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae452230f38dc8e43aa286784f68804d
+      internalID: 4657135430742082108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 461
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ba1a3e3af170d47a468319ea2cfefb
+      internalID: -5281121184862043338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_42
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 405
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da164b7279ad4d94a86785cd9cf0aa5a
+      internalID: 2974408328869428167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 405
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e3cf4957e94d4ea248e312569b02f
+      internalID: 798727381876634591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 324
+        width: 112
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ebd1550d8de24e9d35dffe18d51bf
+      internalID: 800883330561362419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038eafc9f1663244996ee30f92e52c8d
+      internalID: -3654342326225123000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_46
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbfb007dd6d85940979d66c4d5cfbce
+      internalID: -8568999608864309430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce327a7a907e7d9478c144e1af3a0a3d
+      internalID: -5934663935731279505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_48
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699932f449fec6e44afc726b9c589691
+      internalID: 5745016778063924455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48b12e973c7b54bb17b1e7162053ef
+      internalID: 3309299192909234872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_50
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a16344fcade2846aac9d62cb765568
+      internalID: 8555242119007947496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_51
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 380
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e396d74ac498eb84e85360cee5fe9ea8
+      internalID: -5381252318321657684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_52
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 383
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e334b4f5a22c41befbfc4a2032232
+      internalID: 9212087288984699245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_53
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0577fd6c9213dfa4bb3ff9d745e40ea2
+      internalID: -4410406427721936831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_54
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5672c65caf021ba4989db2bbf34111ef
+      internalID: 4303991300986778655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_55
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500bf12fa96fda44688c0e09ea2ec41d
+      internalID: 7273686490165583233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_56
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fa2e45de6f44c4d88610afd53abd17
+      internalID: -3146701043259660918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_57
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2e6352cdffc814a89f52b4e4097e74
+      internalID: -6785807935748658427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_58
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7157f892cfc4d4d820bd1547e61b57
+      internalID: -6168717044856742914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_59
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 353
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03b3c13dc61ee47b9fcfc056fec962
+      internalID: -819604524559920854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_60
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 356
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67c15d519755f646a7e23bdfdd04a87
+      internalID: 5734187879668220444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_61
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e917f3dd81fce4a9ae38405749df3b
+      internalID: 532875206853378876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_62
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d842e648cdfdb4bad8b34cbc20bcb0
+      internalID: -3316659625720217307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_63
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9180737acfd7e724c82ed111e0f6bef5
+      internalID: -2707406053913494599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_64
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8b4f52862ea54fa3857e8af5ea109
+      internalID: -4680166136264330916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_65
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62301f458061aa41b7dfe11ad25cb53
+      internalID: 6459962389160216487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_66
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef3a9c5e9b436643b5536e2426f7b17
+      internalID: 8402186934033079414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_67
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 326
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083dde794ae6d574694bd84fb6945160
+      internalID: 732986169659119711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_68
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 329
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba9b099281a87847ae01cf8f809638e
+      internalID: -3378167912706464597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_69
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 303
+        width: 100
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4836f0bb715e6e4ca65853ca6faec70
+      internalID: 2352148458519979114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_70
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 297
+        width: 108
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d18956e6d77f7438da143679a6f9ad
+      internalID: 3566185634062868899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_71
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2938a150cd9a9ef4794260fe58674e5a
+      internalID: 20152539586357346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57015c8621aba0947af66607805d2752
+      internalID: -2946762150056451740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_73
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cde31a0049dd640b4ed727c89c73ba
+      internalID: 1684813813213091640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_74
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350c620555c1cff44b8bd9bf736d2c69
+      internalID: -4318914066745010354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_75
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 299
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f5d536c3137b4daaadd54555dd541
+      internalID: -8521194660779048139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_76
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 302
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f5cc56ae5388941bd288290dafe7e7
+      internalID: -3807769970347061305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_77
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 285
+        width: 108
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e205663711ae6e48aef3292a435ba86
+      internalID: -4620352667769110554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_78
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 275
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e110739556b2c204aa8fb187439a491f
+      internalID: -2644954937477567302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_79
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 247
+        width: 167
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b6622f0d56d6142a49d17290cd3941
+      internalID: 9152600840692783758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_80
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 247
+        width: 113
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0788e769fb7f1b04d809fe741d454bf9
+      internalID: 2599264931822831593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_81
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 251
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b354e1ac9310e04c8459cf1295a4b00
+      internalID: 4230467430100848076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_82
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 249
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ae0154f2bc8a4ba0c49484c6ea2fd
+      internalID: 6827107835509907556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_83
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 222
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfd62981bce3984c98c9f9f2a18fea3
+      internalID: 4206272196157660398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_84
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 217
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19982a9dea4bf384ab3bd10aba1fa07a
+      internalID: 1082845146292474989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_85
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 217
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959bbf1c0cdb88b41bd10132f8950df2
+      internalID: 6690642736799941789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_86
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 217
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151b8fb6c17e2b94aa81b440a88c6e13
+      internalID: 3621610469522323265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_87
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 224
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd9cb1691a97fb4e9e51026c60456bf
+      internalID: -3054146425675848847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_88
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 220
+        width: 140
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d4592b76756ce4b9a4a699102aa717
+      internalID: -7663895929150602211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_89
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 195
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccb054650dfdbb4ebf90e5f7cd5f036
+      internalID: 4845743817837793308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_90
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 190
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009ccff92f1b03f478b44832fd1a87d8
+      internalID: -4128283112702534761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_91
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 190
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ff7fc270c4140458f41b7874dd60da
+      internalID: -5598031556415857302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_92
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 190
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e60ecd5b9ff3f4c9eb3f0e4db1e3c4
+      internalID: -118607867219173876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_93
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 200
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693e217caf0e4264ca07dcfc5e03af21
+      internalID: -623123956963124839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_94
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 168
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0577af0319ad6ba4488b39c3d1f3e340
+      internalID: 5676248424091825275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 158
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa83ed218dab3834b9768d91cd731204
+      internalID: -5430365111915266195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_96
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 163
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9f6d55884a06a4790bfb0d5ad20527
+      internalID: 1132953210340388566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_97
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 158
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee764988bf9dda4987f079b588663f2
+      internalID: -8953049948468106208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_98
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 173
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba87a09f80f94e4ca21a505295b2160
+      internalID: 286932055548947958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_99
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daad4762dc83a124b8d7d0910237ee65
+      internalID: -4656835623743785572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_100
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 137
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee42dce2cf2e394b8e73ec1bb0a8050
+      internalID: -3785603606419918377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_101
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 138
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8adeb81a822349b8214fd281f0a58
+      internalID: 3145494561873557992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_102
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 138
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72f490f6095814a9f22f02d9501d91
+      internalID: -2961630111473274595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_103
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 138
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f251c118eda73a4b9a7dd71dfbbbf24
+      internalID: 7308181798497542955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_104
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 138
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bbfe5eb25fde74f89dc376c412e334
+      internalID: -7593976001693541449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_105
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 114
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077442b9f467d6a4f9e140661603f81d
+      internalID: 8773606326984795771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_106
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 114
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d211f281afba47a4fb80d7e173458085
+      internalID: -4760062925227975863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_107
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36365aa7a4ba7f49aa1e7c08bf29272
+      internalID: 192036452057855510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_108
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 81
+        width: 108
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269f2906cc379a540acd883a8d9f07d9
+      internalID: -6381218330289209692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_109
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 84
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57def38813f94847a7756da9207bb7f
+      internalID: -82398291844099943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_110
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 95
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79f37b2eda42b54fb3f96bd6851739b
+      internalID: -4137197716187533393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_111
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef8dada6deddd24792020f694abf040
+      internalID: 5404234925929556389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_112
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 57
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e771da9878d6499c71631486e6825
+      internalID: 7927255636234815651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_113
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 58
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b88e6e148d60b4ea5a087f07c06663
+      internalID: 6681475513605719482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_114
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee4f4359ea12854b85deaf84aea0171
+      internalID: 3893034599841253843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_115
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34914efe25c54948b931f25108d4fa4
+      internalID: 7977888712891779844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_116
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db54ddb489963948af6e04f0ee92521
+      internalID: -1049065539934462358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_117
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51bc8e584300a40b8388a574590140
+      internalID: -352804802353429170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_118
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 68
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaf491fc4b7ffa4fa3bbe55400ab2f2
+      internalID: 8627240933964804199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_119
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 60
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34433d0e0de1f754da92ee35e468434e
+      internalID: 5110670239957726980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_120
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 60
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b684ab1930b2240854dcb1714a0864
+      internalID: 8154810213141288282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_121
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 31
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c02012a4db4794bbaef309a6a27a65
+      internalID: -977928440823484986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_122
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 28
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573a83e7eea368e4f8f2320f7df7db53
+      internalID: -5169402758671820017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI - Fantasy_Standard - Middle_123
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 28
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614490bea955eec479077310387a421e
+      internalID: -7931706952094274696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -44,7 +44,7 @@ public class NinjaChain2 : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             ZombieEnemy enemyScript = collision.gameObject.GetComponent<ZombieEnemy>();
-            enemyScript.GetDamage(chainDamage);
+            enemyScript.substractHealth(chainDamage);
         }
     }
 }

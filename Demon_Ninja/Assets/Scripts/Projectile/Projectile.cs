@@ -36,6 +36,8 @@ public class Projectile : MonoBehaviour
         {
             vectorThrust = vectorRight;
         }
+
+        Destroy(gameObject, 3f);
     }
 
     // Update is called once per frame

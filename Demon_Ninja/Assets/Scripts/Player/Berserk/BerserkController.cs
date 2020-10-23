@@ -25,13 +25,17 @@ public class BerserkController : PlayerController
     private BerserkAxeAndShield berserkAxeAndShield;
     private BerserkTwoAxe berserkTwoAxe;
 
-    private PlayerAnimations animations;
+    private int Damage;
 
+    private PlayerAnimations animations;
+    public GameObject prefabExit;
+    public GameObject prefabSlash;
 
     public void Awake()
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
+        Damage = 10;
 
         berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
         berserkAxeAndShield = new BerserkAxeAndShield(GetComponent<Animator>());
@@ -66,17 +70,22 @@ public class BerserkController : PlayerController
             StartCoroutine(BasicAttack());
             tempMovement = Vector2.zero;
         }
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            StartCoroutine(HeavyAttack());
-            tempMovement = Vector2.zero;
-            HeavyAttack();
-        }
+        //if (Input.GetKeyDown(KeyCode.X))
+        //{
+        //    StartCoroutine(HeavyAttack());
+        //    tempMovement = Vector2.zero;
+        //    HeavyAttack();
+        //}
     }
 
     public IEnumerator BasicAttack()
     {
         berserkAttackStrategy.BasicAttack();
+        GameObject berserkSlash = GameObject.Instantiate(prefabSlash, prefabExit.transform);
+
+        berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
+        berserkSlash.transform.position = prefabExit.transform.position;
+
         yield return new WaitForSeconds(0.3f);
     }
 

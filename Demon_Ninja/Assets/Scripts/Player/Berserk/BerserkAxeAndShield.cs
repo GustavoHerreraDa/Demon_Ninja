@@ -9,8 +9,6 @@ public class BerserkAxeAndShield : IBerserkAttackStrategy
     }
     public void BasicAttack()
     {
-        Debug.Log("BerskerCombatStyle.AxeAndShield " + (int)BerskerCombatStyle.AxeAndShield);
-        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.AxeAndShield);
         animator.SetTrigger("BasicAttack");
     }
 
