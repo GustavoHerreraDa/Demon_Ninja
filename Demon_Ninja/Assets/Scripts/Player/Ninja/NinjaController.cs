@@ -4,42 +4,57 @@ using UnityEngine;
 
 public class NinjaController : PlayerController
 {
-    public float jumpCounter = 0;
-    private float ninjaCurrentHitpoints;
-    private float ninjaMaxHitpoints = 100;
+    public bool isGrounded;
+    public bool canDoubleJump = false;
     public Animator ninjaAnimator;
+    public void Awake()
+    {
+    }
     void Start()
     {
-        ninjaCurrentHitpoints = ninjaMaxHitpoints;
+        
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        ninjaAnimator.SetBool("isJumping", isJumping);
-        ninjaAnimator.SetFloat("Speed", Mathf.Abs(rigidBody.velocity.x));
-    }
-    public override void FixedUpdate()
-    {
         MidAirMovement();
-        GroundMovement();
-        FlipCharacterDirection();
+        SetAnimations();
     }
-
     public override void MidAirMovement()
     {
-        if (input.jumpPressed && !isJumping && jumpCounter< 2)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("1Jump");
-            isRunning = false;
-            jumpCounter = jumpCounter + 1;
-            rigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-        }
-    } 
-    
+            Debug.Log("jump");
+            if (isGrounded)
+            {
+                Debug.Log("wants to jump");
+                Debug.Log(rigidBody.velocity);
+                rigidBody.AddForce((Vector2.up * jumpForce), ForceMode2D.Impulse);
+                canDoubleJump = true;
+            }
+            else
+            {
+                if (canDoubleJump)
+                {
+                    canDoubleJump = false;
+                    rigidBody.velocity = new Vector2(rigidBody.velocity.x , 0);
+                    rigidBody.AddForce((Vector2.up * jumpForce), ForceMode2D.Impulse);
 
-    private void KillCharacter()
+                }
+            }
+        }
+    }
+
+    public void SetAnimations()
     {
-        this.gameObject.SetActive(false);
+        ninjaAnimator.SetFloat("Speed",Mathf.Abs(rigidBody.velocity.x));
+        if (!isGrounded)
+        {
+            ninjaAnimator.SetBool("isJumping", true);
+        }
+        else
+        {
+            ninjaAnimator.SetBool("isJumping", false);
+        }
     }
 }

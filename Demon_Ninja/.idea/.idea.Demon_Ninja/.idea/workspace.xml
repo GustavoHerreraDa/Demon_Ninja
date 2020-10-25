@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Berserk/BerserkController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,11 +50,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/GroundChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +101,8 @@
       <workItem from="1603067309587" duration="4078000" />
       <workItem from="1603075692943" duration="429000" />
       <workItem from="1603076985997" duration="314000" />
-      <workItem from="1603140302862" duration="2364000" />
+      <workItem from="1603140302862" duration="3159000" />
+      <workItem from="1603645587280" duration="6375000" />
     </task>
     <servers />
   </component>
