@@ -23,7 +23,6 @@ public class PlayerController : Health
     public PlayerInput input;
     BoxCollider2D bodyCollider;
     public Rigidbody2D rigidBody;
-    public SpriteRenderer playerSprite;
 
     int direction = 1;
 
@@ -32,7 +31,6 @@ public class PlayerController : Health
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
-        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
