@@ -29,7 +29,7 @@ public class CameraFollowWithParrallax : MonoBehaviour
     void Update()
     {
         iniCamPosFrame = transform.position.x;
-        transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
     }
 
     void LateUpdate()
