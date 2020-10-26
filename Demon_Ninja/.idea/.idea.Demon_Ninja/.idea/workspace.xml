@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaMeleeAttack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +57,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/GroundChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +104,8 @@
       <workItem from="1603075692943" duration="429000" />
       <workItem from="1603076985997" duration="314000" />
       <workItem from="1603140302862" duration="3159000" />
-      <workItem from="1603645587280" duration="9139000" />
+      <workItem from="1603645587280" duration="9241000" />
+      <workItem from="1603744453639" duration="1007000" />
     </task>
     <servers />
   </component>

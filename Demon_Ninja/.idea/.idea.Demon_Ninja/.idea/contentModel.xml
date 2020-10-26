@@ -13,10 +13,19 @@
             <e p="PatrolEnemy.cs" t="Include" />
             <e p="ZombieEnemy.cs" t="Include" />
           </e>
+          <e p="Extras" t="Include">
+            <e p="DeathZone.cs" t="Include" />
+            <e p="FeedBack" t="Include">
+              <e p="ColorFeedback.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GameManager.cs" t="Include" />
           <e p="Health.cs" t="Include" />
+          <e p="LevelManager.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="MenuManager.cs" t="Include" />
           </e>
+          <e p="Ninjatp.cs" t="Include" />
           <e p="Parallax" t="Include">
             <e p="CameraFollowWithParrallax.cs" t="Include" />
           </e>
@@ -24,6 +33,7 @@
             <e p="Berserk" t="Include">
               <e p="BerserkAxeAndShield.cs" t="Include" />
               <e p="BerserkController.cs" t="Include" />
+              <e p="BerserkSlash.cs" t="Include" />
               <e p="BerserkTwoAxe.cs" t="Include" />
             </e>
             <e p="Ninja" t="Include">
