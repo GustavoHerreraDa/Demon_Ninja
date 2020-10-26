@@ -53,6 +53,7 @@ public class Health : MonoBehaviour
 
     public virtual void Update()
     {
-        healthSlider.value = CalculateHealthForSlider();
+        if (healthSlider != null)
+            healthSlider.value = CalculateHealthForSlider();
     }
 }

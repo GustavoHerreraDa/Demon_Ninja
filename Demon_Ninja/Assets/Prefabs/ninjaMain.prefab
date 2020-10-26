@@ -14,9 +14,11 @@ GameObject:
   - component: {fileID: 3642715940719787526}
   - component: {fileID: 3642715940719787522}
   - component: {fileID: 3642715940719787549}
+  - component: {fileID: 7300222157508573762}
+  - component: {fileID: 1692514403}
   m_Layer: 0
-  m_Name: Running_0
-  m_TagString: Untagged
+  m_Name: ninjaMain
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &3642715940719787521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,19 +103,20 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   drawDebugRaycasts: 1
   speed: 8
-  jumpForce: 5
+  jumpForce: 7
   isJumping: 0
   isRunning: 0
   isAttacking: 0
+  canDoubleJump: 1
   footOffset: 0.4
   groundDistance: 0.2
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   input: {fileID: 3642715940719787549}
   rigidBody: {fileID: 3642715940719787526}
   isGrounded: 1
-  canDoubleJump: 1
+  ninjaAnimator: {fileID: 0}
 --- !u!50 &3642715940719787526
 Rigidbody2D:
   serializedVersion: 4
@@ -175,6 +178,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontal: 0
   jumpPressed: 0
+--- !u!95 &7300222157508573762
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642715940719787527}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 27d77a4de77e32943899894977cdc777, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1692514403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642715940719787527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62bead737dad904bbe1aca70cd8f689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3642715941909149608
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3642715941909149611
 Transform:
   m_ObjectHideFlags: 0

@@ -33,14 +33,14 @@ public class NinjaAttackTrigger : MonoBehaviour
     }
     public void PressTheAttack()
     {
-        if (Input.GetKeyDown("j") && attackTimer < 0.1f)
+        if (Input.GetKeyDown(KeyCode.Z) && attackTimer < 0.1f)
         {
             isAttacking = true;
             attackTimer = meleeAttackColdown;
             attackTrigger.enabled = true;
             ninjaAnimators.SetTrigger("Attack");
         }
-        if (Input.GetKeyDown("h") && attackTimer < 0.1f)
+        if (Input.GetKeyDown(KeyCode.X) && attackTimer < 0.1f)
         {
             isAttacking = true;
             attackTimer = chainAttackColdown;

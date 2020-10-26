@@ -23,8 +23,10 @@ public class DistanceEnemy : Enemy
 
     }
 
-    public void Update()
+    public override void Update()
     {
+        base.Update();
+
         float distanceToPlayer = Vector3.Distance(transform.position, playerToPersuit.transform.position);
 
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
@@ -36,16 +38,6 @@ public class DistanceEnemy : Enemy
         }
         else if(leftOrRight.x < 0)
             ChangeToLeft();
-
-        //if (distanceToPlayer > maxDistanceAttack)
-        //{
-        //    Walk();
-        //}
-        //else
-        //{
-
-        //}
-
 
         if (canShoot)
         {

@@ -14,6 +14,8 @@ public class PlayerController : Health
     public bool isJumping;
     public bool isRunning;
     public bool isAttacking;
+    public bool canDoubleJump;
+
 
     [Header("Environment Check Properties")]
     public float footOffset = .4f;
@@ -31,12 +33,6 @@ public class PlayerController : Health
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public virtual void FixedUpdate()
@@ -72,13 +68,13 @@ public class PlayerController : Health
         transform.localScale = scale;*/
         if (rigidBody.velocity.x > 0)
         {
-           transform.localScale =  new Vector2( 1,transform.localScale.y);
+            transform.localScale = new Vector2(1, transform.localScale.y);
         }
         else
         {
             if (rigidBody.velocity.x < 0)
             {
-                transform.localScale =  new Vector2(-1, transform.localScale.y);
+                transform.localScale = new Vector2(-1, transform.localScale.y);
             }
         }
     }
@@ -89,9 +85,15 @@ public class PlayerController : Health
         {
             isRunning = false;
             isJumping = true;
-            rigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            Jump();
         }
     }
+
+    public void Jump()
+    {
+        rigidBody.AddForce((Vector2.up * jumpForce), ForceMode2D.Impulse);
+    }
+
     void PhysicsCheck()
     {
         isJumping = false;

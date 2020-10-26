@@ -33,6 +33,7 @@ public class BerserkController : PlayerController
 
     public void Awake()
     {
+        canDoubleJump = false;
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
         Damage = 10;
@@ -70,6 +71,7 @@ public class BerserkController : PlayerController
             StartCoroutine(BasicAttack());
             tempMovement = Vector2.zero;
         }
+
         //if (Input.GetKeyDown(KeyCode.X))
         //{
         //    StartCoroutine(HeavyAttack());
