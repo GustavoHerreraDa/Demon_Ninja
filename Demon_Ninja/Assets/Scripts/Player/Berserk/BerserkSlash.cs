@@ -20,6 +20,7 @@ public class BerserkSlash : MonoBehaviour
         {
             Enemy enemyScript = collision.gameObject.GetComponent<Enemy>();
             enemyScript.substractHealth(damage);
+            enemyScript.BeingHurt();
             Debug.Log("Damage " + enemyScript.name + " Health " + enemyScript.CurrentHealth);
         }
     }

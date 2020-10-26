@@ -156,6 +156,8 @@ MonoBehaviour:
   isJumping: 0
   isRunning: 0
   isAttacking: 0
+  canDoubleJump: 0
+  isHurt: 0
   footOffset: 0.4
   groundDistance: 0.2
   groundLayer:

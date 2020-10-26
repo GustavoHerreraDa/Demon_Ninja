@@ -33,6 +33,9 @@ public class BerserkController : PlayerController
 
     public void Awake()
     {
+        MaxHealth = 100;
+        CurrentHealth = MaxHealth;
+
         canDoubleJump = false;
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();

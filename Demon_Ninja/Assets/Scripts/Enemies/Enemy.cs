@@ -8,6 +8,7 @@ public class Enemy : Health
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     internal int Damage;
+    internal bool isHurt;
 
     public void Walk()
     {
@@ -27,7 +28,7 @@ public class Enemy : Health
     private IEnumerator DeathCoRoutine()
     {
         animator.SetTrigger("IsDeath");
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 
@@ -38,7 +39,9 @@ public class Enemy : Health
 
     private IEnumerator BeingHurtCoRoutine()
     {
-        yield return new WaitForSeconds(1.5f);
+        isHurt = true;
+        yield return new WaitForSeconds(0.5f);
+        isHurt = false;
     }
 
     protected void Flip()

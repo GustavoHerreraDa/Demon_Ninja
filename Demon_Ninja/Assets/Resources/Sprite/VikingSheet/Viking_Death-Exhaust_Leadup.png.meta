@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 36f5ef2c3d159ab488ca6cddcb39f088
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9154844417638278420
+    second: Viking_Death-Exhaust_Leadup_0
+  - first:
+      213: -2439417474031794435
+    second: Viking_Death-Exhaust_Leadup_1
+  - first:
+      213: 5122619275929174
+    second: Viking_Death-Exhaust_Leadup_2
+  - first:
+      213: -4328349114718941701
+    second: Viking_Death-Exhaust_Leadup_3
+  - first:
+      213: 8626358848570560812
+    second: Viking_Death-Exhaust_Leadup_4
+  - first:
+      213: -6533693860628684228
+    second: Viking_Death-Exhaust_Leadup_5
+  - first:
+      213: 3939280529120599672
+    second: Viking_Death-Exhaust_Leadup_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -45,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +117,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Viking_Death-Exhaust_Leadup_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 35
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abd8a47b19226d49be7c6f6c5ff5f95
+      internalID: 9154844417638278420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Death-Exhaust_Leadup_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 35
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44bc19d493dc314e9033141003d5296
+      internalID: -4328349114718941701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Death-Exhaust_Leadup_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa2650d92c3be746aa558dbac046ac9
+      internalID: 8626358848570560812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Death-Exhaust_Leadup_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d4d5ac835747342bba9560031bfa18
+      internalID: -6533693860628684228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking_Death-Exhaust_Leadup_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f846c807e0846fc49b7338aa03b8d993
+      internalID: 3939280529120599672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

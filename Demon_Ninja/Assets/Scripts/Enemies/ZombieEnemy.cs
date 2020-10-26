@@ -30,9 +30,10 @@ public class ZombieEnemy : Enemy
 
     void Move()
     {
-        transform.position = Vector2.MoveTowards(transform.position,
-            waypoints[_waypointIndex].transform.position,
-            _moveSpeed * Time.deltaTime);
+        if (!isHurt)
+            transform.position = Vector2.MoveTowards(transform.position,
+                waypoints[_waypointIndex].transform.position,
+                _moveSpeed * Time.deltaTime);
 
         if (transform.position == waypoints[_waypointIndex].transform.position)
         {
@@ -46,10 +47,11 @@ public class ZombieEnemy : Enemy
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("OnCollision");
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            Debug.Log("player health" + player.CurrentHealth);
+
             if (player != null)
             {
                 player.substractHealth(Damage);

@@ -8,12 +8,13 @@ public class NinjaController : PlayerController
     {
         canDoubleJump = true;
         ninjaAnimator = GetComponent<Animator>();
+        MaxHealth = 100;
     }
+
     void Start()
     {
     }
 
-    
     //public override void FixedUpdate()
     //{
     //    MidAirMovement();

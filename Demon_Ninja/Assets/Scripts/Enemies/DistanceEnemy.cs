@@ -54,10 +54,10 @@ public class DistanceEnemy : Enemy
             }
         }
 
-        //if (!IsAlive)
-        //{
-        //    Death();
-        //}
+        if (!IsAlive)
+        {
+            Death();
+        }
     }
 
     private void ChangeToLeft()
