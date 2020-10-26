@@ -974,6 +974,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: viking
       objectReference: {fileID: 0}
+    - target: {fileID: 6660842304040267629, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ae7d044f61da5499bd59f37e4e7a9b, type: 3}
 --- !u!1 &1073985949
@@ -1065,6 +1070,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3642715940719787521, guid: e74a686856939f1439139e939a922010,
+        type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1600533908}
     - target: {fileID: 3642715940719787523, guid: e74a686856939f1439139e939a922010,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4984,11 +4994,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

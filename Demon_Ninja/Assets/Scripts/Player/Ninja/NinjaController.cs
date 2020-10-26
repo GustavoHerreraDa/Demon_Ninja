@@ -6,9 +6,11 @@ public class NinjaController : PlayerController
     public Animator ninjaAnimator;
     public void Awake()
     {
+        MaxHealth = 100;
+        CurrentHealth = MaxHealth;
         canDoubleJump = true;
         ninjaAnimator = GetComponent<Animator>();
-        MaxHealth = 100;
+        IsAlive = true;
     }
 
     void Start()
