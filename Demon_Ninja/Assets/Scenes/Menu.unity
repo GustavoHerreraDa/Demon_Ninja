@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 5464573}
   - component: {fileID: 5464572}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: btnNinja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -202,7 +202,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5464573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 989863390}
+        m_MethodName: StarGameNinja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5464573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,8 +334,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 989863390}
-        m_MethodName: OnClick
+      - m_Target: {fileID: 989863389}
+        m_MethodName: 
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -669,7 +680,7 @@ GameObject:
   - component: {fileID: 292184864}
   - component: {fileID: 292184863}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btnViking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -738,7 +749,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 292184864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 989863390}
+        m_MethodName: StartGameViking
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &292184864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2207,6 +2229,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513605620}
   m_CullTransparentMesh: 0
+--- !u!1 &1593540749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593540750}
+  - component: {fileID: 1593540751}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593540750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593540749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 191.37909, y: 244.38515, z: -5.1927857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1593540751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593540749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3682f3fd6fed10c4ba8ed9ad34f78eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerElegible: 0
+  levelType: 0
+  Ninja: {fileID: 379454641502911394, guid: 35ce905dbbe049c4e8f6f7257764ca28, type: 3}
+  Invoker: {fileID: 0}
+  Berserk: {fileID: 6660842304040267629, guid: 71ae7d044f61da5499bd59f37e4e7a9b, type: 3}
 --- !u!1 &1606979656
 GameObject:
   m_ObjectHideFlags: 0

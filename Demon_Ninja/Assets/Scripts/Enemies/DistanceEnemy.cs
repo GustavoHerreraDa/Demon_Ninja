@@ -10,7 +10,7 @@ public class DistanceEnemy : Enemy
     public float currentShootTime;
     private bool canShoot;
 
-    void Awake()
+    void Start()
     {
         CurrentHealth = 30;
         MaxHealth = 30;

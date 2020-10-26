@@ -19,7 +19,7 @@ public class CameraFollowWithParrallax : MonoBehaviour
 
     private PlayerController player;
 
-    void Awake()
+    void Start()
     {
         player = FindObjectOfType<PlayerController>();
     }

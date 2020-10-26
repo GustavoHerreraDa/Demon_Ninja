@@ -68,15 +68,24 @@ public class MenuManager : MonoBehaviour
 
     public void StartGameViking()
     {
-
-    }
-
-    public void StartGameViking()
-    {
-
+        var gameManager = FindObjectOfType<GameManager>();
+        gameManager.playerElegible = PlayerElegible.Berserk;
+        gameManager.levelType = LevelType.Normal;
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(1);
     }
 
     public void StarGameNinja()
+    {
+        var gameManager = FindObjectOfType<GameManager>();
+        gameManager.playerElegible = PlayerElegible.Ninja;
+        gameManager.levelType = LevelType.Normal;
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(1);
+
+    }
+
+    public void StarGameInvoker()
     {
 
     }
