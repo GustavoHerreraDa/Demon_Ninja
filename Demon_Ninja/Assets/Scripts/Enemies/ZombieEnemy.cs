@@ -8,10 +8,13 @@ public class ZombieEnemy : Enemy
 
     private int _waypointIndex = 0;
 
+
+
     void Awake()
     {
         MaxHealth = 30;
         CurrentHealth = MaxHealth;
+        Damage = 10;
         animator = GetComponent<Animator>();
         transform.position = waypoints[_waypointIndex].transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -39,6 +42,20 @@ public class ZombieEnemy : Enemy
 
         if (_waypointIndex == waypoints.Length)
             _waypointIndex = 0;
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("OnCollision");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                player.substractHealth(Damage);
+                player.Hurt();
+            }
+        }
     }
 
     //private void Flip()

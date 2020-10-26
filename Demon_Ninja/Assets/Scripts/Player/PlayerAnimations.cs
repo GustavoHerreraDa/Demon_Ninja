@@ -23,5 +23,7 @@ public class PlayerAnimations : MonoBehaviour
     {
         anim.SetBool("isRunning", movement.isRunning);
         anim.SetBool("isJumping", movement.isJumping);
+        anim.SetBool("isHurt", movement.isHurt);
+
     }
 }

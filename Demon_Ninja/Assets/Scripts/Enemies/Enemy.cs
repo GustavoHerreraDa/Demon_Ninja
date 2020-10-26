@@ -7,7 +7,7 @@ public class Enemy : Health
     public GameObject playerToPersuit;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
-
+    internal int Damage;
 
     public void Walk()
     {

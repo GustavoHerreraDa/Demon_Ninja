@@ -51,7 +51,6 @@ public class NinjaController : PlayerController
         canDoubleJump = true;
     }
 
-
     //public void SetAnimations()
     //{
     //    ninjaAnimator.SetFloat("Speed",Mathf.Abs(rigidBody.velocity.x));

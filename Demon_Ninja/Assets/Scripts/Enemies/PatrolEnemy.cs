@@ -43,11 +43,12 @@ public class PatrolEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            NinjaController ninjaScript = collision.gameObject.GetComponent<NinjaController>();
-            if (damageCoroutine == null)
+            PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            if (player != null)
             {
-                Debug.Log(patrolCurrentHitpoints);
-              //  damageCoroutine = StartCoroutine(ninjaScript.DamageEntity(enemyPatrolDamage, 0));
+                player.substractHealth(enemyPatrolDamage);
+                player.Hurt();
+                //  damageCoroutine = StartCoroutine(ninjaScript.DamageEntity(enemyPatrolDamage, 0));
             }
         }
     }

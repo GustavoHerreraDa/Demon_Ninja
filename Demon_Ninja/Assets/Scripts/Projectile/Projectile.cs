@@ -52,6 +52,7 @@ public class Projectile : MonoBehaviour
         {
             PlayerController player = collider.gameObject.GetComponent<PlayerController>();
             player.substractHealth(damage);
+            player.Hurt();
             Destroy(gameObject);
         }
     }

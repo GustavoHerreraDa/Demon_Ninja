@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerController : Health
 {
@@ -15,7 +16,7 @@ public class PlayerController : Health
     public bool isRunning;
     public bool isAttacking;
     public bool canDoubleJump;
-
+    public bool isHurt;
 
     [Header("Environment Check Properties")]
     public float footOffset = .4f;
@@ -131,4 +132,15 @@ public class PlayerController : Health
         //Debug.Log("OnCollisionEnter2D");
     }
 
+    public void Hurt()
+    {
+        StartCoroutine(HurtRoutine());
+    }
+
+    public IEnumerator HurtRoutine()
+    {
+        isHurt = true;
+        yield return new WaitForSeconds(0.3f);
+        isHurt = false;
+    }
 }
