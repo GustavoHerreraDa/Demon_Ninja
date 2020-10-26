@@ -14,10 +14,15 @@ public class NinjaController : PlayerController
     {
         
     }
-    
-    void Update()
+
+    public virtual void FixedUpdate()
     {
         MidAirMovement();
+        GroundMovement();
+        FlipCharacterDirection();
+    }
+    void Update()
+    {
         SetAnimations();
     }
     public override void MidAirMovement()

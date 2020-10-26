@@ -43,7 +43,7 @@ public class PlayerController : Health
     {
         //PhysicsCheck();
         GroundMovement();
-       // MidAirMovement();
+        MidAirMovement();
         FlipCharacterDirection();
     }
     public virtual void GroundMovement()
