@@ -12,6 +12,10 @@ public interface IBerserkAttackStrategy
     void BasicAttack();
 
     void HeavyAttack();
+
+    void JumpAttack();
+
+    void BreathFire();
 }
 
 public class BerserkController : PlayerController
@@ -25,7 +29,7 @@ public class BerserkController : PlayerController
     private BerserkAxeAndShield berserkAxeAndShield;
     private BerserkTwoAxe berserkTwoAxe;
 
-    private int Damage;
+    public int Damage;
 
     private PlayerAnimations animations;
     public GameObject prefabExit;
@@ -69,11 +73,25 @@ public class BerserkController : PlayerController
         {
             ChangeCombatStyle();
         }
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && !isJumping)
         {
             StartCoroutine(BasicAttack());
             tempMovement = Vector2.zero;
         }
+
+        if (Input.GetKeyDown(KeyCode.X) && !isJumping)
+        {
+            StartCoroutine(BreathFire());
+            tempMovement = Vector2.zero;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z) && isJumping)
+        {
+            StartCoroutine(JumpAttack());
+            tempMovement = Vector2.zero;
+        }
+
+        
 
         //if (Input.GetKeyDown(KeyCode.X))
         //{
@@ -86,17 +104,29 @@ public class BerserkController : PlayerController
     public IEnumerator BasicAttack()
     {
         berserkAttackStrategy.BasicAttack();
-        GameObject berserkSlash = GameObject.Instantiate(prefabSlash, prefabExit.transform);
+        //GameObject berserkSlash = GameObject.Instantiate(prefabSlash, prefabExit.transform);
 
-        berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
-        berserkSlash.transform.position = prefabExit.transform.position;
+        //berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
+        //berserkSlash.transform.position = prefabExit.transform.position;
 
+        yield return new WaitForSeconds(0.3f);
+    }
+
+    public IEnumerator JumpAttack()
+    {
+        berserkAttackStrategy.JumpAttack();
         yield return new WaitForSeconds(0.3f);
     }
 
     public IEnumerator HeavyAttack()
     {
         berserkAttackStrategy.HeavyAttack();
+        yield return new WaitForSeconds(0.3f);
+    }
+
+    public IEnumerator BreathFire()
+    {
+        berserkAttackStrategy.BreathFire();
         yield return new WaitForSeconds(0.3f);
     }
 

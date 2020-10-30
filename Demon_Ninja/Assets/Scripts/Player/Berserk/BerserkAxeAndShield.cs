@@ -12,10 +12,18 @@ public class BerserkAxeAndShield : IBerserkAttackStrategy
         animator.SetTrigger("BasicAttack");
     }
 
+    public void JumpAttack()
+    {
+        animator.SetTrigger("JumpAttack");
+    }
+
     public void HeavyAttack()
     {
-        Debug.Log("BerskerCombatStyle.AxeAndShield " + (int)BerskerCombatStyle.AxeAndShield);
-        this.animator.SetInteger("AttackStyle", (int)BerskerCombatStyle.AxeAndShield);
         animator.SetTrigger("HeavyAttack");
+    }
+
+    public void BreathFire()
+    {
+        animator.SetTrigger("BreathFire");
     }
 }

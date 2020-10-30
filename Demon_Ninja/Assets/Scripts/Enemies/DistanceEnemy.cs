@@ -9,6 +9,7 @@ public class DistanceEnemy : Enemy
     public float shootTime;
     public float currentShootTime;
     private bool canShoot;
+    private bool startShoot;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class DistanceEnemy : Enemy
         animator = GetComponentInChildren<Animator>();
         playerToPersuit = FindObjectOfType<PlayerController>().gameObject;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        startShoot = false;
 
     }
 
@@ -38,6 +40,9 @@ public class DistanceEnemy : Enemy
         }
         else if(leftOrRight.x < 0)
             ChangeToLeft();
+
+        if (!startShoot)
+            return;
 
         if (canShoot)
         {
@@ -84,11 +89,21 @@ public class DistanceEnemy : Enemy
     //    base.HurtSound();
     //}
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (LayerMask.LayerToName(other.gameObject.layer) == "Player")
+        if (collider.gameObject.CompareTag("Player"))
         {
 
+            startShoot = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Player"))
+        {
+
+            startShoot = false;
         }
     }
 }

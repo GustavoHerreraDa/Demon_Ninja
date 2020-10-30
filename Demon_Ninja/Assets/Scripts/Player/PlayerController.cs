@@ -17,6 +17,7 @@ public class PlayerController : Health
     public bool isAttacking;
     public bool canDoubleJump;
     public bool isHurt;
+    public bool jumpAttack;
 
     [Header("Environment Check Properties")]
     public float footOffset = .4f;
@@ -26,8 +27,6 @@ public class PlayerController : Health
     public PlayerInput input;
     BoxCollider2D bodyCollider;
     public Rigidbody2D rigidBody;
-
-    int direction = 1;
 
     // Start is called before the first frame update
     void Awake()

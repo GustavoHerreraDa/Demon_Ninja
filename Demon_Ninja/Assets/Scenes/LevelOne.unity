@@ -899,6 +899,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5589519177497378746, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6660842304040267624, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
         type: 3}
       propertyPath: healthSlider
@@ -967,7 +972,7 @@ PrefabInstance:
     - target: {fileID: 6660842304040267629, guid: 71ae7d044f61da5499bd59f37e4e7a9b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ae7d044f61da5499bd59f37e4e7a9b, type: 3}
