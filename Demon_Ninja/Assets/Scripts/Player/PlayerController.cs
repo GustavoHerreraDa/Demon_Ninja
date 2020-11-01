@@ -27,12 +27,14 @@ public class PlayerController : Health
     public PlayerInput input;
     BoxCollider2D bodyCollider;
     public Rigidbody2D rigidBody;
+    public SpriteRenderer playerSprite;
 
     // Start is called before the first frame update
     void Awake()
     {
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
+        playerSprite = this.GetComponent<SpriteRenderer>();
     }
 
     public virtual void FixedUpdate()
@@ -41,6 +43,10 @@ public class PlayerController : Health
         GroundMovement();
         MidAirMovement();
         FlipCharacterDirection();
+        if (!isHurt)
+        {
+            ReturnColor();
+        }
     }
     public virtual void GroundMovement()
     {
@@ -136,10 +142,16 @@ public class PlayerController : Health
         StartCoroutine(HurtRoutine());
     }
 
+    public void ReturnColor()
+    {
+        playerSprite.color = Color.Lerp (playerSprite.color,Color.white,Time.deltaTime/1.5f);
+    }
     public IEnumerator HurtRoutine()
     {
         isHurt = true;
+        playerSprite.color = new Color(2, 0, 0);
         yield return new WaitForSeconds(0.3f);
         isHurt = false;
+        Debug.Log(playerSprite.color);
     }
 }

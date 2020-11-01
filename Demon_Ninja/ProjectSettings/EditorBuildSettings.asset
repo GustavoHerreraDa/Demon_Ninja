@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/NinjaTest.unity
+    guid: 87d61b48e5719d9468fb3e8613bafe92
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: ceee12644df6f354f8613d359ca59152
+    path: Assets/Scenes/Menu.unity
+    guid: 31bee9427a0eea34db45dfc99c4a57c0
   - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
-    guid: af4966b89c739ad4498666688ac67404
+    path: Assets/Scenes/New Scene.unity
+    guid: 135f4485889566545ad48d37ae766185
   m_configObjects: {}

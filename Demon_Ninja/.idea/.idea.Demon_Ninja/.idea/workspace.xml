@@ -33,13 +33,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/DistanceEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuitTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Berserk/BerserkController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrumbleFloor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,16 +55,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/PatrolEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaAttackTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/GroundChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrumbleFloor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/QuitTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +119,10 @@
       <workItem from="1603645587280" duration="9241000" />
       <workItem from="1603744453639" duration="1007000" />
       <workItem from="1603747810587" duration="407000" />
+      <workItem from="1603753497637" duration="2479000" />
+      <workItem from="1603923122814" duration="1915000" />
+      <workItem from="1603926044574" duration="688000" />
+      <workItem from="1604271334525" duration="1710000" />
     </task>
     <servers />
   </component>

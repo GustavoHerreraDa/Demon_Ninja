@@ -6,7 +6,7 @@ public class ZombieEnemy : Enemy
 
     private float _moveSpeed = 2f;
 
-    private int _waypointIndex = 0;
+    public int _waypointIndex = 0;
 
 
 

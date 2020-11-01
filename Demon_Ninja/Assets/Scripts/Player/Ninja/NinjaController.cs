@@ -4,6 +4,7 @@ public class NinjaController : PlayerController
 {
     public bool isGrounded;
     public Animator ninjaAnimator;
+    public GameObject ninjaDoubleJump;
     public void Awake()
     {
         MaxHealth = 100;
@@ -11,6 +12,7 @@ public class NinjaController : PlayerController
         canDoubleJump = true;
         ninjaAnimator = GetComponent<Animator>();
         IsAlive = true;
+        ninjaDoubleJump.gameObject.SetActive(false);
     }
 
     void Start()
@@ -28,8 +30,17 @@ public class NinjaController : PlayerController
     {
         base.Update();
         //SetAnimations();
+        DoubleJumpAnim();
     }
 
+    public void DoubleJumpAnim()
+    {
+        if (isJumping && canDoubleJump)
+        {
+            ninjaDoubleJump.gameObject.SetActive(true);
+        }
+        else ninjaDoubleJump.gameObject.SetActive(false);
+    }
     public override void MidAirMovement()
     {
         if (input.jumpPressed && !isJumping)

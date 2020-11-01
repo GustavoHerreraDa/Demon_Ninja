@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CrumbleFloor.cs" t="Include" />
           <e p="Enemies" t="Include">
             <e p="DistanceEnemy.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
@@ -29,6 +30,7 @@
           <e p="Parallax" t="Include">
             <e p="CameraFollowWithParrallax.cs" t="Include" />
           </e>
+          <e p="Platform.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="Berserk" t="Include">
               <e p="BerserkAxeAndShield.cs" t="Include" />
@@ -51,6 +53,8 @@
           <e p="Projectile" t="Include">
             <e p="Projectile.cs" t="Include" />
           </e>
+          <e p="QuitTest.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
         </e>
       </e>
       <e p="Demon_Ninja.sln" t="IncludeFlat" />
