@@ -285,6 +285,9 @@ MonoBehaviour:
   isJumping: 0
   isRunning: 0
   isAttacking: 0
+  canDoubleJump: 0
+  isHurt: 0
+  jumpAttack: 0
   footOffset: 0.4
   groundDistance: 0.2
   groundLayer:
@@ -293,8 +296,9 @@ MonoBehaviour:
   input: {fileID: 0}
   rigidBody: {fileID: 130613047}
   playerSprite: {fileID: 0}
-  jumpCounter: 0
+  isGrounded: 0
   ninjaAnimator: {fileID: 0}
+  ninjaDoubleJump: {fileID: 0}
 --- !u!212 &130613049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3198,6 +3202,9 @@ MonoBehaviour:
   isJumping: 0
   isRunning: 0
   isAttacking: 0
+  canDoubleJump: 0
+  isHurt: 0
+  jumpAttack: 0
   footOffset: 0.4
   groundDistance: 0.2
   groundLayer:
@@ -3206,8 +3213,9 @@ MonoBehaviour:
   input: {fileID: 1087242238}
   rigidBody: {fileID: 1087242237}
   playerSprite: {fileID: 0}
-  jumpCounter: 0
+  isGrounded: 0
   ninjaAnimator: {fileID: 1087242239}
+  ninjaDoubleJump: {fileID: 0}
 --- !u!50 &1087242237
 Rigidbody2D:
   serializedVersion: 4
@@ -3278,7 +3286,7 @@ BoxCollider2D:
   m_Offset: {x: 1.0753438, y: -0.79434013}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 1}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.65, y: 1.7}
     newSize: {x: 0.33, y: 0.34}
     adaptiveTilingThreshold: 0.5

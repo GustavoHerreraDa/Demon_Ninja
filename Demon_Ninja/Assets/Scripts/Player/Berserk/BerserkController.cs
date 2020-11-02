@@ -43,11 +43,14 @@ public class BerserkController : PlayerController
         canDoubleJump = false;
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
+        playerSprite = this.GetComponent<SpriteRenderer>();
+
         Damage = 10;
 
         berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
         berserkAxeAndShield = new BerserkAxeAndShield(GetComponent<Animator>());
         berserkAttackStrategy = berserkAxeAndShield;
+
     }
 
     public void ChangeCombatStyle()
