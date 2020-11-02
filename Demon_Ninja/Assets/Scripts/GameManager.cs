@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum PlayerElegible
 {
@@ -28,8 +26,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        
-        
+
+
     }
 
     public void AddPlayer(Transform startPosition)
@@ -37,16 +35,21 @@ public class GameManager : MonoBehaviour
         if (levelType == LevelType.Normal)
         {
             if (playerElegible == PlayerElegible.Berserk)
-                Instantiate(Berserk, startPosition);
-
+            {
+                var berserk = Instantiate(Berserk);
+                berserk.transform.position = startPosition.position;
+            }
             if (playerElegible == PlayerElegible.Ninja)
-                Instantiate(Ninja, startPosition);
+            {
+                var ninja = Instantiate(Ninja);
+                ninja.transform.position = startPosition.position;
+            }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
