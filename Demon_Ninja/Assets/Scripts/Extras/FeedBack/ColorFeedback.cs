@@ -1,6 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+public enum ColorFeedbackType
+{
+    damage, recovery
+}
+
 
 public class ColorFeedback : MonoBehaviour
 {
@@ -11,10 +16,18 @@ public class ColorFeedback : MonoBehaviour
     private bool isFlashing = false;
     private AudioSource audioSource;
     public AudioClip audioHurt;
+    [SerializeField] ColorFeedbackType colorFeedback;
+
     public void Awake()
     {
+
         audioSource = GetComponent<AudioSource>();
 
+        if (colorFeedback == ColorFeedbackType.damage)
+            flashColor = Color.red;
+
+        if (colorFeedback == ColorFeedbackType.recovery)
+            flashColor = Color.green;
     }
     public void StartFlash()
     {

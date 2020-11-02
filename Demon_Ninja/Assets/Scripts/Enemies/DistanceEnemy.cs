@@ -22,7 +22,7 @@ public class DistanceEnemy : Enemy
         playerToPersuit = FindObjectOfType<PlayerController>().gameObject;
         spriteRenderer = GetComponent<SpriteRenderer>();
         startShoot = false;
-
+        damageFeedBack = GetComponent<ColorFeedback>();
     }
 
     public override void Update()

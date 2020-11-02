@@ -5626,12 +5626,12 @@ PrefabInstance:
     - target: {fileID: 3240570994968552538, guid: b26da98f4e8f9994593e95a466d4c166,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8075001
+      value: -6.13
       objectReference: {fileID: 0}
     - target: {fileID: 3240570994968552538, guid: b26da98f4e8f9994593e95a466d4c166,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3394847
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 3240570994968552538, guid: b26da98f4e8f9994593e95a466d4c166,
         type: 3}
@@ -5680,6 +5680,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b26da98f4e8f9994593e95a466d4c166, type: 3}
+--- !u!1 &3240570996246357673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3240570995641396226, guid: b26da98f4e8f9994593e95a466d4c166,
+    type: 3}
+  m_PrefabInstance: {fileID: 3240570996246357672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3240570996246357674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240570996246357673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5923225c5bcd3464cb9d75867d107dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySprite: {fileID: 0}
+  flashColor: {r: 1, g: 0, b: 0, a: 0}
+  numberOfFlashes: 3
+  flashDelay: 0.1
+  audioHurt: {fileID: 0}
+  colorFeedback: 0
 --- !u!1001 &3285718738279987790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5746,6 +5770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vampire
+      objectReference: {fileID: 0}
+    - target: {fileID: 3285718738886931130, guid: 28951e841c62870479c359674614f172,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28951e841c62870479c359674614f172, type: 3}

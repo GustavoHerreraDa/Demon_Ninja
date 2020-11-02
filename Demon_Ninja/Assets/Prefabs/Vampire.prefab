@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 3285718738886931124}
   - component: {fileID: 3285718738886931127}
   - component: {fileID: 4374464841968630088}
+  - component: {fileID: 8685249226371762910}
   m_Layer: 0
   m_Name: Vampire
   m_TagString: Enemy
@@ -221,3 +222,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 7.3436685
+--- !u!114 &8685249226371762910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3285718738886931130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5923225c5bcd3464cb9d75867d107dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySprite: {fileID: 3285718738886931128}
+  flashColor: {r: 0, g: 0, b: 0, a: 0}
+  numberOfFlashes: 3
+  flashDelay: 0.1
+  audioHurt: {fileID: 0}
+  colorFeedback: 0
