@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6053071203143243414}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,9 +311,10 @@ MonoBehaviour:
     m_Bits: 256
   input: {fileID: 3642715940719787549}
   rigidBody: {fileID: 3642715940719787526}
-  playerSprite: {fileID: 0}
+  playerSprite: {fileID: 3642715940719787520}
   isGrounded: 1
   ninjaAnimator: {fileID: 0}
+  ninjaDoubleJump: {fileID: 0}
 --- !u!50 &3642715940719787526
 Rigidbody2D:
   serializedVersion: 4

@@ -29,6 +29,6 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        healthSlider.value = playerController.CalculateHealthForSlider();
+      //  healthSlider.value = playerController.CalculateHealthForSlider();
     }
 }

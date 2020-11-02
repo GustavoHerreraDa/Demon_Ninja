@@ -12,6 +12,7 @@ public class NinjaController : PlayerController
         canDoubleJump = true;
         ninjaAnimator = GetComponent<Animator>();
         IsAlive = true;
+        ninjaDoubleJump = GameObject.Find("Wind");
         ninjaDoubleJump.gameObject.SetActive(false);
     }
 
@@ -61,8 +62,12 @@ public class NinjaController : PlayerController
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        isJumping = false;
-        canDoubleJump = true;
+        if (col.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
+            canDoubleJump = true; 
+        }
+
     }
 
     //public void SetAnimations()

@@ -62,7 +62,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/GroundChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ninjatp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrumbleFloor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
@@ -70,6 +69,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
       </list>
     </option>
   </component>
@@ -122,7 +123,7 @@
       <workItem from="1603753497637" duration="2479000" />
       <workItem from="1603923122814" duration="1915000" />
       <workItem from="1603926044574" duration="688000" />
-      <workItem from="1604271334525" duration="1710000" />
+      <workItem from="1604271334525" duration="3253000" />
     </task>
     <servers />
   </component>
