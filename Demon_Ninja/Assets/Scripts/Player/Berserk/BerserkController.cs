@@ -122,6 +122,13 @@ public class BerserkController : PlayerController
 
     public IEnumerator JumpAttack()
     {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(attackAudio);
+        }
+        else audioSource.PlayOneShot(attackAudio);
+
         berserkAttackStrategy.JumpAttack();
         yield return new WaitForSeconds(0.3f);
     }

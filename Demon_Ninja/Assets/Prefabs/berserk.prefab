@@ -171,8 +171,10 @@ MonoBehaviour:
   rigidBody: {fileID: 0}
   playerSprite: {fileID: 0}
   audioSource: {fileID: 0}
-  attackAudio: {fileID: 8300000, guid: 432b787e7699a70419cf04b6858259b9, type: 3}
-  jumpAudio: {fileID: 8300000, guid: 274fdd74621b558409106772d74f1e76, type: 3}
+  attackAudio: {fileID: 8300000, guid: 2a5f10484cb604a4daa083b625f98143, type: 3}
+  jumpAudio: {fileID: 8300000, guid: d68b4a47853575542ba652d4d22c5f0a, type: 3}
+  hurtSound: {fileID: 8300000, guid: dea8a8afc9f682a4f8c7f7057f07e4f9, type: 3}
+  deadSound: {fileID: 8300000, guid: 754c4df3f58943440a8922bf650d1e51, type: 3}
   berserkCombatStyle: 0
   Damage: 0
   prefabExit: {fileID: 1318362017}

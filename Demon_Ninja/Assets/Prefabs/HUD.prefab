@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 1683718465181369751}
   - component: {fileID: 9208959106787013451}
   m_Layer: 0
-  m_Name: CanvasGroup
+  m_Name: HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1247,6 +1247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3358710200836196690}
   - component: {fileID: 3358710200836196693}
+  - component: {fileID: 2980308073890331396}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1326,6 +1327,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2980308073890331396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358710200836196691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fab465b1e2c994c8995f028049c91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Healtslider: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &3625116884958301646
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,8 +29,12 @@ public class PlayerController : Health
     public Rigidbody2D rigidBody;
     public SpriteRenderer playerSprite;
     public AudioSource audioSource;
+
     public AudioClip attackAudio;
     public AudioClip jumpAudio;
+    public AudioClip hurtSound;
+    public AudioClip deadSound;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -49,6 +53,11 @@ public class PlayerController : Health
         if (!isHurt)
         {
             ReturnColor();
+        }
+
+        if (!IsAlive)
+        {
+            Death();
         }
     }
     public virtual void GroundMovement()
@@ -148,12 +157,29 @@ public class PlayerController : Health
 
     public void Hurt()
     {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(hurtSound);
+        }
+        else audioSource.PlayOneShot(hurtSound);
+
         StartCoroutine(HurtRoutine());
+    }
+
+    public void Death()
+    {
+        if (audioSource.isPlaying && deadSound != null)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(deadSound);
+        }
+        else audioSource.PlayOneShot(deadSound);
     }
 
     public void ReturnColor()
     {
-        playerSprite.color = Color.Lerp (playerSprite.color,Color.white,Time.deltaTime/1.5f);
+        playerSprite.color = Color.Lerp(playerSprite.color, Color.white, Time.deltaTime / 1.5f);
     }
     public IEnumerator HurtRoutine()
     {
