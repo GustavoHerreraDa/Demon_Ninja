@@ -8,6 +8,10 @@ public class ZombieEnemy : Enemy
 
     public int _waypointIndex = 0;
 
+    public AudioClip zombieAttackAudio;
+    public AudioClip zombieDiesAudio;
+    public AudioSource zombieSource;
+
 
 
     void Awake()
@@ -19,6 +23,7 @@ public class ZombieEnemy : Enemy
         transform.position = waypoints[_waypointIndex].transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
         damageFeedBack = GetComponent<ColorFeedback>();
+        
     }
 
     public override void Update()
@@ -26,7 +31,10 @@ public class ZombieEnemy : Enemy
         Move();
 
         if (!IsAlive)
+        {
+            zombieSource.PlayOneShot(zombieDiesAudio);
             Death();
+        }
     }
 
     void Move()
@@ -57,6 +65,13 @@ public class ZombieEnemy : Enemy
             {
                 player.substractHealth(Damage);
                 player.Hurt();
+                if (zombieSource.isPlaying)
+                {
+                    zombieSource.Stop();
+                    zombieSource.PlayOneShot(zombieAttackAudio);
+                }
+                else zombieSource.PlayOneShot(zombieAttackAudio);
+                
             }
         }
     }

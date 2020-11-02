@@ -14,6 +14,7 @@ public class NinjaController : PlayerController
         IsAlive = true;
         ninjaDoubleJump = GameObject.Find("Wind");
         ninjaDoubleJump.gameObject.SetActive(false);
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     void Start()
@@ -49,6 +50,12 @@ public class NinjaController : PlayerController
             isRunning = false;
             isJumping = true;
             Jump();
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+                audioSource.PlayOneShot(jumpAudio);
+            }
+            else audioSource.PlayOneShot(jumpAudio);
             return;
         }
 
@@ -57,6 +64,12 @@ public class NinjaController : PlayerController
             canDoubleJump = false;
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, 0);
             Jump();
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+                audioSource.PlayOneShot(jumpAudio);
+            }
+            else audioSource.PlayOneShot(jumpAudio);
         }
     }
 

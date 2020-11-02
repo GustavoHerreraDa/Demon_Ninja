@@ -28,6 +28,9 @@ public class PlayerController : Health
     BoxCollider2D bodyCollider;
     public Rigidbody2D rigidBody;
     public SpriteRenderer playerSprite;
+    public AudioSource audioSource;
+    public AudioClip attackAudio;
+    public AudioClip jumpAudio;
 
     // Start is called before the first frame update
     void Awake()
@@ -92,6 +95,12 @@ public class PlayerController : Health
             isRunning = false;
             isJumping = true;
             Jump();
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+                audioSource.PlayOneShot(jumpAudio);
+            }
+            else audioSource.PlayOneShot(jumpAudio);
         }
     }
 

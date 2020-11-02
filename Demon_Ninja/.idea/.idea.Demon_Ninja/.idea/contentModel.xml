@@ -19,12 +19,14 @@
             <e p="FeedBack" t="Include">
               <e p="ColorFeedback.cs" t="Include" />
             </e>
+            <e p="StageGoal.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="MenuManager.cs" t="Include" />
+            <e p="Scene_Manager.cs" t="Include" />
           </e>
           <e p="Ninjatp.cs" t="Include" />
           <e p="Parallax" t="Include">

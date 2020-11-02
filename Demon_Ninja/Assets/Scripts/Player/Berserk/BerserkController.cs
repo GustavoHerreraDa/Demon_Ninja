@@ -44,7 +44,7 @@ public class BerserkController : PlayerController
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody2D>();
         playerSprite = this.GetComponent<SpriteRenderer>();
-
+        audioSource = this.GetComponent<AudioSource>();
         Damage = 10;
 
         berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
@@ -111,7 +111,12 @@ public class BerserkController : PlayerController
 
         //berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
         //berserkSlash.transform.position = prefabExit.transform.position;
-
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            audioSource.PlayOneShot(attackAudio);
+        }
+        else audioSource.PlayOneShot(attackAudio);
         yield return new WaitForSeconds(0.3f);
     }
 
