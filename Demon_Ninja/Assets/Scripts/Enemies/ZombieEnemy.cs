@@ -18,6 +18,7 @@ public class ZombieEnemy : Enemy
         animator = GetComponent<Animator>();
         transform.position = waypoints[_waypointIndex].transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        damageFeedBack = GetComponent<ColorFeedback>();
     }
 
     public override void Update()

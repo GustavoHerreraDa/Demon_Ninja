@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 3240570995641396229}
   - component: {fileID: 3240570995641396227}
   - component: {fileID: 3240570995641396228}
+  - component: {fileID: 1549411009480783808}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -212,6 +213,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1549411009480783808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240570995641396226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5923225c5bcd3464cb9d75867d107dd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySprite: {fileID: 3240570995641396230}
+  flashColor: {r: 1, g: 0, b: 0, a: 0}
+  numberOfFlashes: 3
+  flashDelay: 0.1
+  audioHurt: {fileID: 0}
 --- !u!1 &3240570996434203447
 GameObject:
   m_ObjectHideFlags: 0

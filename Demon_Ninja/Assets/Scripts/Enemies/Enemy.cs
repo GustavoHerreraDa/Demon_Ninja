@@ -7,6 +7,7 @@ public class Enemy : Health
     public GameObject playerToPersuit;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    internal ColorFeedback damageFeedBack;
     internal int Damage;
     internal bool isHurt;
 
@@ -34,6 +35,9 @@ public class Enemy : Health
 
     public void BeingHurt()
     {
+        if (damageFeedBack != null)
+            damageFeedBack.StartFlash();
+
         StartCoroutine("BeingHurtCoRoutine");
     }
 
