@@ -94,7 +94,7 @@ public class BerserkController : PlayerController
             tempMovement = Vector2.zero;
         }
 
-        
+
 
         //if (Input.GetKeyDown(KeyCode.X))
         //{
@@ -111,13 +111,17 @@ public class BerserkController : PlayerController
 
         //berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
         //berserkSlash.transform.position = prefabExit.transform.position;
-        if (audioSource.isPlaying)
-        {
-            audioSource.Stop();
-            audioSource.PlayOneShot(attackAudio);
-        }
-        else audioSource.PlayOneShot(attackAudio);
+        
+
         yield return new WaitForSeconds(0.3f);
+
+        if (attackAudio != null)
+        {
+            audioSource.clip = attackAudio;
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+        }
+
     }
 
     public IEnumerator JumpAttack()

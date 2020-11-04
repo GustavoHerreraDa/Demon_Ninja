@@ -10,6 +10,7 @@ public class DistanceEnemy : Enemy
     public float currentShootTime;
     private bool canShoot;
     private bool startShoot;
+    [SerializeField] private float distanceTrigger;
 
     void Start()
     {
@@ -29,17 +30,24 @@ public class DistanceEnemy : Enemy
     {
         base.Update();
 
-        float distanceToPlayer = Vector3.Distance(transform.position, playerToPersuit.transform.position);
-
+        float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
+        Debug.Log("Distance " + distanceToPlayer);
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
+
+        
 
         if (leftOrRight.x > 0)
         {
             ChangeToRight();
 
         }
-        else if(leftOrRight.x < 0)
+        else if (leftOrRight.x < 0)
             ChangeToLeft();
+
+        if (distanceToPlayer < distanceTrigger)
+        {
+            startShoot = true;
+        }
 
         if (!startShoot)
             return;
@@ -83,27 +91,17 @@ public class DistanceEnemy : Enemy
         GameObject.Instantiate(prefabProyectile, shootExit.position, Quaternion.LookRotation(transform.forward));
     }
 
+    void OnDrawGizmos()
+    {
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, distanceTrigger);
+    }
 
     //public override void HurtSound()
     //{
     //    base.HurtSound();
     //}
 
-    void OnTriggerEnter2D(Collider2D collider)
-    {
-        if (collider.gameObject.CompareTag("Player"))
-        {
 
-            startShoot = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.gameObject.CompareTag("Player"))
-        {
-
-            startShoot = false;
-        }
-    }
 }
