@@ -175,6 +175,7 @@ MonoBehaviour:
   jumpAudio: {fileID: 8300000, guid: d68b4a47853575542ba652d4d22c5f0a, type: 3}
   hurtSound: {fileID: 8300000, guid: dea8a8afc9f682a4f8c7f7057f07e4f9, type: 3}
   deadSound: {fileID: 8300000, guid: 754c4df3f58943440a8922bf650d1e51, type: 3}
+  footStep: {fileID: 8300000, guid: 7ee4208c389c2bc4c83c229d7c5f5a41, type: 3}
   berserkCombatStyle: 0
   Damage: 0
   prefabExit: {fileID: 1318362017}

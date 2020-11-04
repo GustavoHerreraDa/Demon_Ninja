@@ -34,7 +34,7 @@ public class PlayerController : Health
     public AudioClip jumpAudio;
     public AudioClip hurtSound;
     public AudioClip deadSound;
-
+    public AudioClip footStep;
 
     // Start is called before the first frame update
     void Awake()
@@ -76,6 +76,9 @@ public class PlayerController : Health
             FlipCharacterDirection();*/
 
         rigidBody.velocity = new Vector2(xVelocity, rigidBody.velocity.y);
+
+
+        FootSound();
 
     }
 
@@ -169,6 +172,7 @@ public class PlayerController : Health
 
     public void Death()
     {
+        Debug.Log("Muerte");
         if (audioSource.isPlaying && deadSound != null)
         {
             audioSource.Stop();
@@ -188,5 +192,16 @@ public class PlayerController : Health
         yield return new WaitForSeconds(0.3f);
         isHurt = false;
         Debug.Log(playerSprite.color);
+    }
+
+    public void FootSound()
+    {
+        if (isJumping)
+            return;
+        if (isRunning)
+        {
+            if (footStep != null)
+            { audioSource.clip = footStep; audioSource.Play(); }
+        }
     }
 }

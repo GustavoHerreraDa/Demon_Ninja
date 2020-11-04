@@ -296,6 +296,12 @@ MonoBehaviour:
   input: {fileID: 0}
   rigidBody: {fileID: 130613047}
   playerSprite: {fileID: 0}
+  audioSource: {fileID: 0}
+  attackAudio: {fileID: 0}
+  jumpAudio: {fileID: 0}
+  hurtSound: {fileID: 0}
+  deadSound: {fileID: 0}
+  footStep: {fileID: 0}
   isGrounded: 0
   ninjaAnimator: {fileID: 0}
   ninjaDoubleJump: {fileID: 0}
@@ -3182,7 +3188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1087242236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,6 +3219,12 @@ MonoBehaviour:
   input: {fileID: 1087242238}
   rigidBody: {fileID: 1087242237}
   playerSprite: {fileID: 0}
+  audioSource: {fileID: 0}
+  attackAudio: {fileID: 0}
+  jumpAudio: {fileID: 0}
+  hurtSound: {fileID: 0}
+  deadSound: {fileID: 0}
+  footStep: {fileID: 0}
   isGrounded: 0
   ninjaAnimator: {fileID: 1087242239}
   ninjaDoubleJump: {fileID: 0}
@@ -3287,7 +3299,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.65, y: 1.7}
+    oldSize: {x: 2.1875, y: 2.09375}
     newSize: {x: 0.33, y: 0.34}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3354,7 +3366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087242235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.73, y: 4.37, z: 0}
+  m_LocalPosition: {x: 3.8, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1782066069}
