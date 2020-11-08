@@ -12,7 +12,7 @@ public class ZombieEnemy : Enemy
     public AudioClip zombieDiesAudio;
     public AudioSource zombieSource;
 
-
+    public Collider2D zombieColldier;
 
     void Awake()
     {
@@ -32,6 +32,7 @@ public class ZombieEnemy : Enemy
 
         if (!IsAlive)
         {
+            zombieColldier.enabled = false;
             zombieSource.PlayOneShot(zombieDiesAudio);
             Death();
         }

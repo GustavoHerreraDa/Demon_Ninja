@@ -19,6 +19,7 @@
             <e p="FeedBack" t="Include">
               <e p="ColorFeedback.cs" t="Include" />
             </e>
+            <e p="HealthBar.cs" t="Include" />
             <e p="StageGoal.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />

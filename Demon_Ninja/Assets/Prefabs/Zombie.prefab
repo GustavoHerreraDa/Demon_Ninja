@@ -198,6 +198,7 @@ MonoBehaviour:
   zombieAttackAudio: {fileID: 8300000, guid: 9e7e206d6b620d44ebba2d931d339d84, type: 3}
   zombieDiesAudio: {fileID: 8300000, guid: cc0755761d6d0104398469bf8b0ff8e7, type: 3}
   zombieSource: {fileID: 1782370300246761920}
+  zombieColldier: {fileID: 3240570995641396229}
 --- !u!95 &3240570995641396228
 Animator:
   serializedVersion: 3

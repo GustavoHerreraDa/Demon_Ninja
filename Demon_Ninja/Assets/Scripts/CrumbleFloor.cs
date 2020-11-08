@@ -7,6 +7,7 @@ public class CrumbleFloor : MonoBehaviour
 {
     public Rigidbody2D rockRigid;
     public int x;
+    public GameObject floorSprite;
     
     public void PutGravity()
     {
@@ -29,6 +30,7 @@ public class CrumbleFloor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            floorSprite.transform.position = floorSprite.transform.position + new Vector3(0, -0.2f, 0);
             PutGravity();
         }
     }
