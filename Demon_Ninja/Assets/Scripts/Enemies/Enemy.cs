@@ -10,6 +10,8 @@ public class Enemy : Health
     internal ColorFeedback damageFeedBack;
     internal int Damage;
     internal bool isHurt;
+    internal ArenaManager arenaManager;
+
 
     public void Walk()
     {

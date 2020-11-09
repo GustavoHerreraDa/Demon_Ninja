@@ -6,6 +6,7 @@ public class FlyingEnemy : Enemy
     public Rigidbody2D myRigidbody;
     private float _moveSpeed = 2f;
     private bool canMove = false;
+    [SerializeField] private float distanceTrigger;
 
 
     void Awake()
@@ -32,6 +33,8 @@ public class FlyingEnemy : Enemy
     // Update is called once per frame
     public override void Update()
     {
+        CalculateCanMove();
+
         ChangeDirection();
 
         if (!isHurt && IsAlive && canMove)
@@ -112,5 +115,22 @@ public class FlyingEnemy : Enemy
     {
         transform.rotation = new Quaternion(0, 0, 0, 0);
 
+    }
+
+    private void CalculateCanMove()
+    {
+        float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
+
+        if (distanceToPlayer < distanceTrigger)
+        {
+            canMove = true;
+        }
+    }
+
+    void OnDrawGizmos()
+    {
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, distanceTrigger);
     }
 }

@@ -11,8 +11,14 @@ public class ArenaManager : MonoBehaviour
     public GameObject summonEffect;
     public GameObject arenaAward;
 
+    public GameObject door;
+    public GameObject wallObstacle;
+
+    public bool isPlayerInArena;
+
     public float timeToSummon;
     public int countEnemyToSummon;
+    private int currentEnemySummon;
 
     private bool canSummon = false;
     private float currentTimeToSummon;
@@ -23,6 +29,7 @@ public class ArenaManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SpawnEnemy();
         currentSpawner = 0;
         maxPositionSpawner = arenaSpawners.Length;
     }
@@ -30,6 +37,9 @@ public class ArenaManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isPlayerInArena)
+            return; 
+
         if (canSummon)
         {
             SpawnEnemy();
@@ -44,18 +54,53 @@ public class ArenaManager : MonoBehaviour
                 currentTimeToSummon = 0;
             }
         }
+        EnemyCount();
+
     }
 
     private void SpawnEnemy()
     {
+        if (currentEnemySummon == countEnemyToSummon)
+            return;
+
         var effect = Instantiate(summonEffect, arenaSpawners[currentSpawner].position, arenaSpawners[currentSpawner].rotation);
         Destroy(effect.gameObject, 0.5f);
 
         var enemy = Instantiate(enemiesToSpawn[0]);
         enemy.transform.position = arenaSpawners[currentSpawner].position;
+        enemy.GetComponent<Enemy>().arenaManager = this;
+
         currentSpawner++;
+        currentEnemySummon++;
+
+        arenaEnemies.Add(enemy.GetComponent<Enemy>());
 
         if (currentSpawner == maxPositionSpawner)
             currentSpawner = 0;
+    }
+
+    private void EnemyCount()
+    {
+        if (arenaEnemies.Count == 0)
+        {
+            if (wallObstacle != null)
+                Destroy(wallObstacle);
+
+            if (arenaAward != null)
+                arenaAward.SetActive(true);
+
+            if (door != null)
+                door.SetActive(true);
+
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("Player"))
+        {
+
+            isPlayerInArena = true;
+        }
     }
 }

@@ -13,6 +13,7 @@ public class ZombieArena : Enemy
     private bool canMove = false;
 
 
+
     void Awake()
     {
         MaxHealth = 30;
@@ -49,7 +50,9 @@ public class ZombieArena : Enemy
 
             if (zombieDiesAudio != null)
                 zombieSource.PlayOneShot(zombieDiesAudio);
+
             Death();
+            RemoveEnemyInArena();
         }
     }
 
@@ -126,6 +129,13 @@ public class ZombieArena : Enemy
     private void ChangeToRight()
     {
         transform.rotation = new Quaternion(0, 0, 0, 0);
+    }
 
+    private void RemoveEnemyInArena()
+    {
+        if (arenaManager != null)
+        {
+            arenaManager.arenaEnemies.Remove(this.GetComponent<Enemy>());
+        }
     }
 }
