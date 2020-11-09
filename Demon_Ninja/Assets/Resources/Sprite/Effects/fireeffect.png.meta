@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 4dd40ae8a46a5234a8628731dcdc9ea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8409246822510723621
+    second: fireeffect_0
+  - first:
+      213: -7144448280560414596
+    second: fireeffect_1
+  - first:
+      213: 4656782014880628581
+    second: fireeffect_2
+  - first:
+      213: 5329493180518405710
+    second: fireeffect_3
+  - first:
+      213: -4988915979909687062
+    second: fireeffect_4
+  - first:
+      213: 8870875493238552582
+    second: fireeffect_5
+  - first:
+      213: -1444649881242139716
+    second: fireeffect_9
+  - first:
+      213: 542536014413051448
+    second: fireeffect_11
+  - first:
+      213: -2251258889471951815
+    second: fireeffect_12
+  - first:
+      213: -4393622999585807357
+    second: fireeffect_13
+  - first:
+      213: 4709313913167781329
+    second: fireeffect_14
+  - first:
+      213: -3803054736964483955
+    second: fireeffect_15
+  - first:
+      213: 7943576873860944786
+    second: fireeffect_16
+  - first:
+      213: 3743459130806338313
+    second: fireeffect_17
+  - first:
+      213: 1621359084958284002
+    second: fireeffect_18
+  - first:
+      213: 5144564341995619628
+    second: fireeffect_19
+  - first:
+      213: 7961194450458758701
+    second: fireeffect_20
+  - first:
+      213: -3876165650312238582
+    second: fireeffect_21
+  - first:
+      213: 8884661830812051430
+    second: fireeffect_22
+  - first:
+      213: 1694709665969239420
+    second: fireeffect_23
+  - first:
+      213: -5244853729309353030
+    second: fireeffect_24
+  - first:
+      213: 6793291003830967386
+    second: fireeffect_25
+  - first:
+      213: -7482310131607677221
+    second: fireeffect_26
+  - first:
+      213: 6869307839280578234
+    second: fireeffect_27
+  - first:
+      213: -865055647400521302
+    second: fireeffect_28
+  - first:
+      213: -723682163182322297
+    second: fireeffect_29
+  - first:
+      213: 1836433743074734858
+    second: fireeffect_30
+  - first:
+      213: 3339771067596116777
+    second: fireeffect_31
+  - first:
+      213: -7701616489467582487
+    second: fireeffect_32
+  - first:
+      213: 2484741618678710291
+    second: fireeffect_6
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireeffect_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 417
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9b992246da41499f4216a8e094eb1
+      internalID: -8409246822510723621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 419
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1194be26abf9f474aa78a7b4ff394b9d
+      internalID: -7144448280560414596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 427
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351099281d188f945b3027dcbfb76eb3
+      internalID: 4656782014880628581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 426
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cff4273a9ba5a448d2f748349a9c99
+      internalID: 5329493180518405710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 427
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04167e2c1fd0f434bba196f741b76c4f
+      internalID: -4988915979909687062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 325
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4583b4ae1100147a5d1c35aaf13d42
+      internalID: 8870875493238552582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 317
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033a9f099e77f5540b08637f6f35476d
+      internalID: -1444649881242139716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_11
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 325
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60893b6d0a6569b47932a687658ddd5a
+      internalID: 542536014413051448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 317
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e41581b685fdb4ca6bb85e1e726103
+      internalID: -2251258889471951815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 222
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766d53e099e53ed43825354aede5d286
+      internalID: -4393622999585807357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 238
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192e6690d9bf5204fb5749411deab85f
+      internalID: 4709313913167781329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 221
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f0ebe6a48fbc40bb451efbcae9989
+      internalID: -3803054736964483955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 221
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7637b5768af0e54dba951d7e4ff3a84
+      internalID: 7943576873860944786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 242
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca745884918d2949bad2a4b46e19a04
+      internalID: 3743459130806338313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 221
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ffa983fc256b24ea3f36ea7682be24
+      internalID: 1621359084958284002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 221
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ac71711bb0f394a913e8ff9317d4fc
+      internalID: 5144564341995619628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49aa3625cb7ccf4ca7db90b301de44c
+      internalID: 7961194450458758701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 100
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9731dcabde48ac74e968ca0980a04aec
+      internalID: -3876165650312238582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 152
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403d006d22816549b5f307a8840d94d
+      internalID: 8884661830812051430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 152
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a79e34f3e95a4ea7eee812e2dd171
+      internalID: 1694709665969239420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 135
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552716830d14b594ab3de1d92034277a
+      internalID: -5244853729309353030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 156
+        width: 4
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e01747ffa00c41803f6d2ac252c12
+      internalID: 6793291003830967386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 100
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4867fae13debf4d85973a323f2c3ed
+      internalID: -7482310131607677221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf962bd29b82c014a8cbf6d4e8d521e6
+      internalID: 6869307839280578234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_28
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 100
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef5bbb8e7986ef4a8c6a011e1ac1422
+      internalID: -865055647400521302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_29
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 159
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b570c1ce475593448dcf98a0267d2b1
+      internalID: -723682163182322297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_30
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 129
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bd78dd78305a949ac1be5cd60b8e7c
+      internalID: 1836433743074734858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_31
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 135
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46a2b531e8b484ab601d3e97a915d6
+      internalID: 3339771067596116777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_32
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908c529270978548b4883a60eef3e09
+      internalID: -7701616489467582487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireeffect_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 325
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef2b05a739f384d9d679e2553642ef
+      internalID: 2484741618678710291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

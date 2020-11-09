@@ -60,7 +60,6 @@ public class ZombieEnemy : Enemy
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
-            Debug.Log("player health" + player.CurrentHealth);
 
             if (player != null)
             {
