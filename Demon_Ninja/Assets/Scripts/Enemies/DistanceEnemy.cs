@@ -31,7 +31,7 @@ public class DistanceEnemy : Enemy
         base.Update();
 
         float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
-        Debug.Log("Distance " + distanceToPlayer);
+//        Debug.Log("Distance " + distanceToPlayer);
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
 
         

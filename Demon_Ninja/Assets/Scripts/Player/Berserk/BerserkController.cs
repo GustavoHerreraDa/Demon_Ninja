@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Diagnostics.Contracts;
 using UnityEngine;
 
 public enum BerskerCombatStyle
@@ -34,6 +35,8 @@ public class BerserkController : PlayerController
     private PlayerAnimations animations;
     public GameObject prefabExit;
     public GameObject prefabSlash;
+
+    public bool isVikingAttacking = false;
 
     public void Awake()
     {
@@ -106,6 +109,7 @@ public class BerserkController : PlayerController
 
     public IEnumerator BasicAttack()
     {
+        isVikingAttacking = true;
         berserkAttackStrategy.BasicAttack();
         //GameObject berserkSlash = GameObject.Instantiate(prefabSlash, prefabExit.transform);
 
@@ -114,7 +118,7 @@ public class BerserkController : PlayerController
         
 
         yield return new WaitForSeconds(0.3f);
-
+        isVikingAttacking = false;
         if (attackAudio != null)
         {
             audioSource.clip = attackAudio;

@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="ArenaWall.cs" t="Include" />
           <e p="CrumbleFloor.cs" t="Include" />
           <e p="Enemies" t="Include">
             <e p="DistanceEnemy.cs" t="Include" />
