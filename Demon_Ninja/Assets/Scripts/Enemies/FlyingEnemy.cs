@@ -18,7 +18,7 @@ public class FlyingEnemy : Enemy
         spriteRenderer = GetComponent<SpriteRenderer>();
         damageFeedBack = GetComponent<ColorFeedback>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        playerToPersuit = FindObjectOfType<PlayerController>().gameObject;
+        
 
         canMove = false;
         IsAlive = true;
@@ -27,7 +27,7 @@ public class FlyingEnemy : Enemy
     // Start is called before the first frame update
     void Start()
     {
-
+        playerToPersuit = FindObjectOfType<PlayerController>().gameObject;
     }
 
     // Update is called once per frame

@@ -75,9 +75,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CrumbleFloor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/FlyingEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Berserk/BerserkController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/DistanceEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArenaWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/FlyingEnemy.cs" />
       </list>
     </option>
   </component>
