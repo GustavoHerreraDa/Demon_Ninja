@@ -11,10 +11,13 @@
           <e p="Enemies" t="Include">
             <e p="DistanceEnemy.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
+            <e p="FlyingEnemy.cs" t="Include" />
             <e p="PatrolEnemy.cs" t="Include" />
+            <e p="ZombieArena.cs" t="Include" />
             <e p="ZombieEnemy.cs" t="Include" />
           </e>
           <e p="Extras" t="Include">
+            <e p="ArenaManager.cs" t="Include" />
             <e p="DeathZone.cs" t="Include" />
             <e p="FeedBack" t="Include">
               <e p="ColorFeedback.cs" t="Include" />
