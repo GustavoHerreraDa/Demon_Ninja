@@ -8,7 +8,9 @@ public class CrumbleFloor : MonoBehaviour
     public Rigidbody2D rockRigid;
     public int x;
     public GameObject floorSprite;
-    
+
+    private Animator animator;
+
     public void PutGravity()
     {
         StartCoroutine(Gravity());
@@ -24,12 +26,15 @@ public class CrumbleFloor : MonoBehaviour
     private void Awake()
     {
         rockRigid.bodyType = RigidbodyType2D.Static;
+
+        animator = GetComponentInChildren<Animator>();
     }
 
     public void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            animator.SetTrigger("crumble");
             floorSprite.transform.position = floorSprite.transform.position + new Vector3(0, -0.2f, 0);
             PutGravity();
         }
