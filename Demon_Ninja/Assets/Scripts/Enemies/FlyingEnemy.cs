@@ -8,6 +8,11 @@ public class FlyingEnemy : Enemy
     private bool canMove = false;
     [SerializeField] private float distanceTrigger;
 
+    public AudioClip flySound;
+    public AudioClip biteSound;
+    public AudioClip deathSound;
+    public AudioSource audioSource;
+
 
     void Awake()
     {
@@ -18,7 +23,7 @@ public class FlyingEnemy : Enemy
         spriteRenderer = GetComponent<SpriteRenderer>();
         damageFeedBack = GetComponent<ColorFeedback>();
         myRigidbody = GetComponent<Rigidbody2D>();
-        
+        audioSource = GetComponent<AudioSource>();
 
         canMove = false;
         IsAlive = true;
@@ -38,14 +43,18 @@ public class FlyingEnemy : Enemy
         ChangeDirection();
 
         if (!isHurt && IsAlive && canMove)
+        {
+
+
             Move();
 
+        }
         if (!IsAlive)
         {
             //zombieCollider.enabled = false;
 
-            //if (zombieDiesAudio != null)
-            //    zombieSource.PlayOneShot(zombieDiesAudio);
+            if (audioSource != null && deathSound != null)
+                audioSource.PlayOneShot(deathSound);
 
             Death();
         }
@@ -53,6 +62,13 @@ public class FlyingEnemy : Enemy
 
     void Move()
     {
+        if (flySound != null)
+        {
+            audioSource.clip = flySound;
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+        }
+
         var auxPosition = Vector2.MoveTowards(transform.position, playerToPersuit.transform.position, _moveSpeed * Time.deltaTime);
         myRigidbody.MovePosition(auxPosition);
 
@@ -68,6 +84,9 @@ public class FlyingEnemy : Enemy
 
             if (player != null)
             {
+                if (audioSource != null && biteSound != null)
+                    audioSource.PlayOneShot(biteSound);
+
                 player.substractHealth(Damage);
                 player.Hurt();
                 StartCoroutine(WaitUntilPersuit());
@@ -96,7 +115,7 @@ public class FlyingEnemy : Enemy
         float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
 
-        Debug.Log("leftOrRight" + leftOrRight);
+        //Debug.Log("leftOrRight" + leftOrRight);
 
         if (leftOrRight.x > 0)
         {
