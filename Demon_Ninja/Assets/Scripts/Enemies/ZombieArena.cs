@@ -111,8 +111,6 @@ public class ZombieArena : Enemy
         float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
 
-        Debug.Log("leftOrRight" + leftOrRight);
-
         if (leftOrRight.x > 0)
         {
             ChangeToLeft();

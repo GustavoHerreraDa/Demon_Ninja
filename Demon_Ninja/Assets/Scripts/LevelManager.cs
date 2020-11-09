@@ -26,7 +26,8 @@ public class LevelManager : MonoBehaviour
 
         if(gameManager != null)
         {
-            Debug.Log("Start Player");
+            Debug.Log("Start Player " + this.name);
+
             gameManager.AddPlayer(startPosition);
         }
     }

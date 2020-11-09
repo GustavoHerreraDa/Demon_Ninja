@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1683718465181369751}
+      - m_Target: {fileID: 134103339344897107}
         m_MethodName: ActivateContinue
         m_Mode: 1
         m_Arguments:
@@ -1039,8 +1039,8 @@ GameObject:
   - component: {fileID: 3358710200296115747}
   - component: {fileID: 3358710200296115744}
   - component: {fileID: 3358710200296115745}
-  - component: {fileID: 1683718465181369751}
   - component: {fileID: 9208959106787013451}
+  - component: {fileID: 134103339344897107}
   m_Layer: 0
   m_Name: HUD
   m_TagString: Untagged
@@ -1131,7 +1131,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1683718465181369751
+--- !u!114 &9208959106787013451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3358710200296115742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ac4109e6d69ac44945018dbec8408d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &134103339344897107
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1145,24 +1157,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
   startPosition: {fileID: 0}
-  healthSlider: {fileID: 3358710200836196693}
+  healthSlider: {fileID: 0}
   playerController: {fileID: 0}
   cnVictory: {fileID: 480436277319037985}
   cnDefeat: {fileID: 4397841776531056891}
   cnGame: {fileID: 4006444457561245428}
   cnPause: {fileID: 3625116884958301646}
---- !u!114 &9208959106787013451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3358710200296115742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ac4109e6d69ac44945018dbec8408d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3358710200776459730
 GameObject:
   m_ObjectHideFlags: 0
