@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour
     public GameObject cnDefeat;
     public GameObject cnGame;
     public GameObject cnPause;
+    public GameObject cnNextLevel;
 
     private bool isPauseActive;
 
@@ -87,5 +88,13 @@ public class LevelManager : MonoBehaviour
         isPauseActive = false;
         cnPause.gameObject.SetActive(false);
         cnGame.gameObject.SetActive(true);
+    }
+
+    public void NextLevel()
+    {
+        Time.timeScale = 0;
+        isPauseActive = true;
+        cnNextLevel.gameObject.SetActive(true);
+        cnGame.gameObject.SetActive(false);
     }
 }

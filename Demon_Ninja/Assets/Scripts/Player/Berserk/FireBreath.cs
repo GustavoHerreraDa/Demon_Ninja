@@ -18,7 +18,6 @@ public class FireBreath : MonoBehaviour
     public void SetPosition(Vector3 position)
     {
         this.position = position.normalized;
-        Debug.Log("Fire position" + this.position);
     }
 
     void Start()

@@ -39,8 +39,11 @@ public class BerserkController : PlayerController
     public GameObject prefabFireExit;
     public GameObject prefabFireBreath;
     public float fireCooldown;
+    public BerserkUI fireCycle;
 
     public bool isVikingAttacking = false;
+
+    
 
     public void Awake()
     {
@@ -57,6 +60,7 @@ public class BerserkController : PlayerController
         berserkTwoAxe = new BerserkTwoAxe(GetComponent<Animator>());
         berserkAxeAndShield = new BerserkAxeAndShield(GetComponent<Animator>());
         berserkAttackStrategy = berserkAxeAndShield;
+        fireCycle = FindObjectOfType<BerserkUI>();
 
     }
 
@@ -158,7 +162,8 @@ public class BerserkController : PlayerController
     {
         canFire = false;
         berserkAttackStrategy.BreathFire();
-        yield return new WaitForSeconds(0.3f);
+        StarFireCicle();
+        yield return new WaitForSeconds(0.4f);
         GameObject berserkFireBreath = GameObject.Instantiate(prefabFireBreath);
         var fireOrientation = prefabFireExit.transform.position - transform.position;
 
@@ -167,6 +172,22 @@ public class BerserkController : PlayerController
         berserkFireBreath.GetComponent<FireBreath>().SetDamage(FireDamage);
 
         StartCoroutine(ShootCooldown());
+    }
+
+    private void StarFireCicle()
+    {
+        if (fireCycle is null)
+            return;
+
+        fireCycle.Fire();
+    }
+
+    private void CompleteFire()
+    {
+        if (fireCycle is null)
+            return;
+
+        fireCycle.CompletedFireCooldown();
     }
 
     IEnumerator ShootCooldown()
@@ -180,8 +201,13 @@ public class BerserkController : PlayerController
             ticks += Time.deltaTime;
             yield return null;
         }
-
+        CompleteFire();
         canFire = true;
+    }
+
+    public  void SetCircle(BerserkUI berserkUI)
+    {
+        this.fireCycle = berserkUI;
     }
 
 }

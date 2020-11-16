@@ -72,7 +72,7 @@ public class MenuManager : MonoBehaviour
         gameManager.playerElegible = PlayerElegible.Berserk;
         gameManager.levelType = LevelType.Normal;
         DontDestroyOnLoad(gameManager);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 
     public void StarGameNinja()
@@ -81,8 +81,22 @@ public class MenuManager : MonoBehaviour
         gameManager.playerElegible = PlayerElegible.Ninja;
         gameManager.levelType = LevelType.Normal;
         DontDestroyOnLoad(gameManager);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
 
+    }
+
+    public void StarGameTutorialViking()
+    {
+        var gameManager = FindObjectOfType<GameManager>();
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(1);
+    }
+
+    public void StarGameTutorialNinja()
+    {
+        var gameManager = FindObjectOfType<GameManager>();
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(2);
     }
 
     public void StarGameInvoker()
