@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Diagnostics.Contracts;
 using UnityEngine;
 
 public enum BerskerCombatStyle
@@ -33,8 +32,13 @@ public class BerserkController : PlayerController
     public int Damage;
 
     private PlayerAnimations animations;
-    public GameObject prefabExit;
-    public GameObject prefabSlash;
+
+    [Header("Fire")]
+    public bool canFire;
+    public int FireDamage;
+    public GameObject prefabFireExit;
+    public GameObject prefabFireBreath;
+    public float fireCooldown;
 
     public bool isVikingAttacking = false;
 
@@ -87,6 +91,9 @@ public class BerserkController : PlayerController
 
         if (Input.GetKeyDown(KeyCode.X) && !isJumping)
         {
+            if (!canFire)
+                return;
+
             StartCoroutine(BreathFire());
             tempMovement = Vector2.zero;
         }
@@ -115,7 +122,7 @@ public class BerserkController : PlayerController
 
         //berserkSlash.GetComponent<BerserkSlash>().SetDamage(Damage);
         //berserkSlash.transform.position = prefabExit.transform.position;
-        
+
 
         yield return new WaitForSeconds(0.3f);
         isVikingAttacking = false;
@@ -149,8 +156,32 @@ public class BerserkController : PlayerController
 
     public IEnumerator BreathFire()
     {
+        canFire = false;
         berserkAttackStrategy.BreathFire();
         yield return new WaitForSeconds(0.3f);
+        GameObject berserkFireBreath = GameObject.Instantiate(prefabFireBreath);
+        var fireOrientation = prefabFireExit.transform.position - transform.position;
+
+        berserkFireBreath.transform.position = prefabFireExit.transform.position;
+        berserkFireBreath.GetComponent<FireBreath>().SetPosition(new Vector3(fireOrientation.x, 0));
+        berserkFireBreath.GetComponent<FireBreath>().SetDamage(FireDamage);
+
+        StartCoroutine(ShootCooldown());
+    }
+
+    IEnumerator ShootCooldown()
+    {
+        canFire = false;
+
+        float ticks = 0;
+
+        while (ticks < fireCooldown)
+        {
+            ticks += Time.deltaTime;
+            yield return null;
+        }
+
+        canFire = true;
     }
 
 }

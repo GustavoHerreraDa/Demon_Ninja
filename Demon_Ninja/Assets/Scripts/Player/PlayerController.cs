@@ -36,6 +36,8 @@ public class PlayerController : Health
     public AudioClip deadSound;
     public AudioClip footStep;
 
+    [Header("Clue Sign")]
+    public GameObject clueSign;
     // Start is called before the first frame update
     void Awake()
     {
@@ -203,5 +205,15 @@ public class PlayerController : Health
             if (footStep != null)
             { audioSource.clip = footStep; audioSource.Play(); }
         }
+    }
+
+    public void ActiveClueSign()
+    {
+        clueSign.gameObject.SetActive(true);
+    }
+
+    public void DesactiveClueSign()
+    {
+        clueSign.gameObject.SetActive(false);
     }
 }

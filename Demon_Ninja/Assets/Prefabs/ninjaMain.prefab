@@ -230,6 +230,7 @@ Transform:
   m_Children:
   - {fileID: 3642715941909149611}
   - {fileID: 6053071203143243414}
+  - {fileID: 493944619157668753}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -316,6 +317,10 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   attackAudio: {fileID: 0}
   jumpAudio: {fileID: 8300000, guid: 274fdd74621b558409106772d74f1e76, type: 3}
+  hurtSound: {fileID: 0}
+  deadSound: {fileID: 0}
+  footStep: {fileID: 0}
+  clueSign: {fileID: 493944619157671022}
   isGrounded: 1
   ninjaAnimator: {fileID: 0}
   ninjaDoubleJump: {fileID: 0}
@@ -658,3 +663,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &5343594761843593712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3642715940719787523}
+    m_Modifications:
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5250539
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028998558, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_Name
+      value: ClueSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544664637028998558, guid: 560b6df856c981443a67c786749f95bf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 560b6df856c981443a67c786749f95bf, type: 3}
+--- !u!1 &493944619157671022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5544664637028998558, guid: 560b6df856c981443a67c786749f95bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5343594761843593712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &493944619157668753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5343594761843593712}
+  m_PrefabAsset: {fileID: 0}

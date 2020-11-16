@@ -30,11 +30,13 @@ public class DistanceEnemy : Enemy
     {
         base.Update();
 
+
+
         float distanceToPlayer = Vector2.Distance(transform.position, playerToPersuit.transform.position);
-//        Debug.Log("Distance " + distanceToPlayer);
+        //        Debug.Log("Distance " + distanceToPlayer);
         Vector2 leftOrRight = playerToPersuit.transform.position - transform.position;
 
-        
+
 
         if (leftOrRight.x > 0)
         {
@@ -47,6 +49,11 @@ public class DistanceEnemy : Enemy
         if (distanceToPlayer < distanceTrigger)
         {
             startShoot = true;
+        }
+
+        if (!IsAlive)
+        {
+            Death();
         }
 
         if (!startShoot)
@@ -67,10 +74,7 @@ public class DistanceEnemy : Enemy
             }
         }
 
-        if (!IsAlive)
-        {
-            Death();
-        }
+
     }
 
     private void ChangeToLeft()
