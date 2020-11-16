@@ -11,6 +11,8 @@ public class CrumbleFloor : MonoBehaviour
 
     private Animator animator;
 
+    public AudioSource crumbleAudio;
+
     public void PutGravity()
     {
         StartCoroutine(Gravity());
@@ -34,6 +36,7 @@ public class CrumbleFloor : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            crumbleAudio.Play();
             animator.SetTrigger("crumble");
             floorSprite.transform.position = floorSprite.transform.position + new Vector3(0, -0.2f, 0);
             PutGravity();
