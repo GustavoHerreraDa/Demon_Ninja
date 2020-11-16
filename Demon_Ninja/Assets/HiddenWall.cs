@@ -10,8 +10,8 @@ public class HiddenWall : Enemy
     
     void Start()
     {
-        MaxHealth = 30;
-        CurrentHealth = 30;
+        MaxHealth = 20;
+        CurrentHealth = MaxHealth;
         thisCollider = GetComponent<BoxCollider2D>();
         thisRigid = GetComponent<Rigidbody2D>();
     }
@@ -19,11 +19,7 @@ public class HiddenWall : Enemy
     // Update is called once per frame
     void Update()
     {
-        if (!IsAlive)
-        {
-            thisCollider.enabled = false;
-            showGameObject.SetActive(false);
-        }
+        Debug.Log(MaxHealth);
     }
     
 }
