@@ -33,6 +33,7 @@ public class FireBreath : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Enemy enemyScript = collision.gameObject.GetComponent<Enemy>();
@@ -40,6 +41,8 @@ public class FireBreath : MonoBehaviour
             enemyScript.BeingHurt();
             Destroy(gameObject);
         }
+
+        
     }
 
 }

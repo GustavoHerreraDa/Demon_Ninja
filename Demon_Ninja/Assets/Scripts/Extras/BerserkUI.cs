@@ -15,7 +15,6 @@ public class BerserkUI : MonoBehaviour
         var berserk = FindObjectOfType<BerserkController>();
         if (berserk is null)
         {
-            Debug.Log("Berserk is null");
             this.gameObject.SetActive(false);
             return;
         }

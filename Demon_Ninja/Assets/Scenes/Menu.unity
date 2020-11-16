@@ -478,7 +478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &189148635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2638,7 +2638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tutorial - Viking
+  m_Text: Tutorial - Ninja
 --- !u!222 &1538252848
 CanvasRenderer:
   m_ObjectHideFlags: 0

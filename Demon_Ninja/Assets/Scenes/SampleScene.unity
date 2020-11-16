@@ -669,33 +669,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!1 &1992245513 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3240570995641396226, guid: b26da98f4e8f9994593e95a466d4c166,
-    type: 3}
-  m_PrefabInstance: {fileID: 2131486129}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1992245519
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992245513}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1001 &2131486129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -777,6 +750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6177904961642208460, guid: b26da98f4e8f9994593e95a466d4c166,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b26da98f4e8f9994593e95a466d4c166, type: 3}

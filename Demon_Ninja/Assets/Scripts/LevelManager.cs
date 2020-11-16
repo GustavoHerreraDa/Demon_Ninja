@@ -1,7 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
+public enum CurrentLevelType
+{
+    normal,
+    tutorial
+}
 
 public class LevelManager : MonoBehaviour
 {
@@ -20,12 +25,14 @@ public class LevelManager : MonoBehaviour
 
     private bool isPauseActive;
 
+    public CurrentLevelType levelType;
+
 
     void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
 
-        if(gameManager != null)
+        if (gameManager != null)
         {
             Debug.Log("Start Player " + this.name);
 
@@ -37,7 +44,7 @@ public class LevelManager : MonoBehaviour
     {
         playerController = FindObjectOfType<PlayerController>();
 
-        
+
     }
 
     void Update()
@@ -90,11 +97,42 @@ public class LevelManager : MonoBehaviour
         cnGame.gameObject.SetActive(true);
     }
 
-    public void NextLevel()
+    public void ActivateNextLevel()
     {
         Time.timeScale = 0;
         isPauseActive = true;
         cnNextLevel.gameObject.SetActive(true);
         cnGame.gameObject.SetActive(false);
     }
+
+    public void NextLevelButton()
+    {
+        var player = FindObjectOfType<PlayerController>();
+
+        if (player.GetType() == typeof(BerserkController))
+            StartGameViking();
+
+        if(player.GetType() == typeof(NinjaController))
+            StarGameNinja();
+    }
+
+    public void StartGameViking()
+    {
+        var gameManager = FindObjectOfType<GameManager>();
+        gameManager.playerElegible = PlayerElegible.Berserk;
+        gameManager.levelType = LevelType.Normal;
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(3);
+    }
+
+    public void StarGameNinja()
+    {
+        var gameManager = FindObjectOfType<GameManager>();
+        gameManager.playerElegible = PlayerElegible.Ninja;
+        gameManager.levelType = LevelType.Normal;
+        DontDestroyOnLoad(gameManager);
+        SceneManager.LoadScene(3);
+
+    }
+
 }

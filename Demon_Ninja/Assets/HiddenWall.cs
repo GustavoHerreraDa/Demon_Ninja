@@ -19,7 +19,7 @@ public class HiddenWall : Enemy
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(MaxHealth);
+
     }
     
 }

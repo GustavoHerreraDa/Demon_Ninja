@@ -174,7 +174,6 @@ public class PlayerController : Health
 
     public void Death()
     {
-        Debug.Log("Muerte");
         if (audioSource.isPlaying && deadSound != null)
         {
             audioSource.Stop();
