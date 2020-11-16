@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ninja/NinjaChain2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DontFlip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/ZombieEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Parallax/CameraFollowWithParrallax.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,6 +85,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CrumbleFloor.cs" />
+        <option value="$PROJECT_DIR$/Assets/DontFlip.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +146,7 @@
       <workItem from="1604861195593" duration="1531000" />
       <workItem from="1604936929128" duration="80000" />
       <workItem from="1605463790767" duration="6001000" />
+      <workItem from="1605562928940" duration="362000" />
     </task>
     <servers />
   </component>

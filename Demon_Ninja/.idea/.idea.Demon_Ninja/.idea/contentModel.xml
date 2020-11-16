@@ -6,6 +6,12 @@
     <e p="C:\Users\Franco\Documents\GitHub\Demon-Ninja_Server\Demon_Ninja\Demon_Ninja" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Dialogue" t="Include">
+          <e p="Dialogue.cs" t="Include" />
+          <e p="DialogueManager.cs" t="Include" />
+          <e p="DialogueTrigger.cs" t="Include" />
+        </e>
+        <e p="DontFlip.cs" t="Include" />
         <e p="HiddenWall.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ArenaWall.cs" t="Include" />
@@ -20,6 +26,7 @@
           </e>
           <e p="Extras" t="Include">
             <e p="ArenaManager.cs" t="Include" />
+            <e p="BerserkUI.cs" t="Include" />
             <e p="DeathZone.cs" t="Include" />
             <e p="FeedBack" t="Include">
               <e p="ColorFeedback.cs" t="Include" />
@@ -46,6 +53,7 @@
               <e p="BerserkController.cs" t="Include" />
               <e p="BerserkSlash.cs" t="Include" />
               <e p="BerserkTwoAxe.cs" t="Include" />
+              <e p="FireBreath.cs" t="Include" />
             </e>
             <e p="Ninja" t="Include">
               <e p="GroundChecker.cs" t="Include" />
