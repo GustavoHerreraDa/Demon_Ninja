@@ -201,8 +201,11 @@ public class PlayerController : Health
             return;
         if (isRunning)
         {
-            if (footStep != null)
-            { audioSource.clip = footStep; audioSource.Play(); }
+            if (footStep != null && !audioSource.isPlaying)
+            {
+                audioSource.clip = footStep;
+                audioSource.Play();
+            }
         }
     }
 

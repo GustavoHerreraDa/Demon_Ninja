@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum ColorFeedbackType
 {
-    damage, recovery
+    damage, recovery, door
 }
 
 
@@ -28,6 +28,9 @@ public class ColorFeedback : MonoBehaviour
 
         if (colorFeedback == ColorFeedbackType.recovery)
             flashColor = Color.green;
+
+        if (colorFeedback == ColorFeedbackType.door)
+            flashColor = Color.gray;
     }
     public void StartFlash()
     {

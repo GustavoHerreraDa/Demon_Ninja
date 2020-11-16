@@ -27,5 +27,13 @@ public class BerserkSlash : MonoBehaviour
             enemyScript.substractHealth(damage);
             enemyScript.BeingHurt();
         }
+
+        if (collision.gameObject.CompareTag("Destructable"))
+        {
+            Debug.Log("Destroy Destructable");
+            Destructable destructable = collision.gameObject.GetComponent<Destructable>();
+            destructable.substractHealth(damage);
+            destructable.Hurt();
+        }
     }
 }

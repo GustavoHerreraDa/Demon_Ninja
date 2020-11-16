@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FireBreath : MonoBehaviour
 {
@@ -33,7 +31,7 @@ public class FireBreath : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.tag);
+        Debug.Log("BREATH FIRE " + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Enemy enemyScript = collision.gameObject.GetComponent<Enemy>();
@@ -42,7 +40,14 @@ public class FireBreath : MonoBehaviour
             Destroy(gameObject);
         }
 
-        
+        if (collision.gameObject.CompareTag("Destructable"))
+        {
+            Debug.Log("Destroy Destructable");
+            Destructable destructable = collision.gameObject.GetComponent<Destructable>();
+            destructable.substractHealth(damage);
+            destructable.Hurt();
+            Destroy(gameObject);
+        }
     }
 
 }

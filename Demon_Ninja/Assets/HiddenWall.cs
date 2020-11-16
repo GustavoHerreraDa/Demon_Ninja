@@ -1,25 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class HiddenWall : Enemy
+public class HiddenWall : Destructable
 {
-    private Collider2D thisCollider;
-    public GameObject showGameObject;
-    private Rigidbody2D thisRigid;
-    
-    void Start()
+    public GameObject hiddenArea;
+    public GameObject hiddenFog;
+    public override void Awake()
     {
-        MaxHealth = 20;
+        base.Awake();
+        damageFeedBack = GetComponent<ColorFeedback>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        MaxHealth = 40;
         CurrentHealth = MaxHealth;
-        thisCollider = GetComponent<BoxCollider2D>();
-        thisRigid = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        MaxHealth = CurrentHealth;
 
+        if (!IsAlive)
+        {
+            if (hiddenArea != null)
+                hiddenArea.SetActive(true);
+
+            if (hiddenFog != null)
+                hiddenFog.SetActive(false);
+
+            PlaySound();
+            DeathEffect();
+            Destroy(gameObject);
+        }
     }
-    
+
 }
