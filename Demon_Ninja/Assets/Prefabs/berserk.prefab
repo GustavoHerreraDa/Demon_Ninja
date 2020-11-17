@@ -187,6 +187,7 @@ MonoBehaviour:
   prefabFireBreath: {fileID: 8119611855654765064, guid: 2fc6323f7db1d2d4eb62b39f3062cc9d,
     type: 3}
   fireCooldown: 3
+  fireCycle: {fileID: 0}
   isVikingAttacking: 0
 --- !u!114 &6660842304040267625
 MonoBehaviour:
@@ -407,7 +408,7 @@ PrefabInstance:
     - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 5544664637028995681, guid: 560b6df856c981443a67c786749f95bf,
         type: 3}
