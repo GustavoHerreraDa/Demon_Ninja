@@ -2,6 +2,8 @@
 Source Code of a game in unity
 
 
+
+
 Personajes para el lunes
 
 Tienen 2 habilidades y 1 pasiva
@@ -42,3 +44,25 @@ Enemigo 3: Enemigo que no haga daño pero que impida movimiento o algo por el es
 
 
 Inputs: ???
+
+
+ENTREGA FINAL
+
+Ampliar la partes en donde los dos jugadores comparten si o si.
+
+Ver en las dos partes en donde transitan los dos jugadores se sientan diferentes.
+
+Mostrar que la parte de la puerta se vea anteriormente para que el jugador.
+
+Invoker.
+
+3 niveles.
+
+3 Desafio
+	Tipo Metroid
+	Boss
+	
+	
+Bugs
+	Al terminal la zona.
+	Correger backgorund supera la altura
